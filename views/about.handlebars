@@ -1,0 +1,30 @@
+<h1>About Meadowlark Travel</h1>
+<p>Your fortune for the day:</p>
+<blockquote>{{fortune}}</blockquote>
+
+<div class="container" ng-app="myApp" ng-controller="myCtrl">
+    <div class="row">
+        <div class="col-lg-12">
+            <form class="form-horizontal" role="form" ng-submit="update()">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Luck</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="Lucky"
+                               ng-model="lucky" />
+                    </div>
+                    <input id="data" value="{{lucky}}"/>
+                </div>
+                <div class="form-group">
+                    <div style="padding-left:300px">
+                        <input type="submit" value="Submit" class="btn btn-primary"/>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+
+    <script src="/js/about/about.js"></script>
+{{/section}}

@@ -1,0 +1,118 @@
+html,body, img{
+    width:  100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width:  100%;
+}
+g{
+    cursor: pointer;
+}
+/*** SVG demonstration ***/
+
+/* page */
+svg {
+    background-color: beige;
+}
+
+#heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#caption {
+    font-size: 12px;
+}
+
+/* flower */
+#flower:hover {
+    cursor: crosshair;
+}
+
+/* gradient */
+#fade-stop-1 {
+    stop-color: blue;
+}
+
+#fade-stop-2 {
+    stop-color: white;
+}
+
+/* outer petals */
+#outer-petals {
+    opacity: .75;
+}
+
+#outer-petals .segment-fill {
+    fill: azure;
+    stroke: lightsteelblue;
+    stroke-width: 1;
+}
+
+#outer-petals .segment-edge {
+    fill: none;
+    stroke: deepskyblue;
+    stroke-width: 3;
+}
+
+#outer-petals .segment:hover > .segment-fill {
+    fill: plum;
+    stroke: none;
+}
+
+#outer-petals .segment:hover > .segment-edge {
+    stroke: slateblue;
+}
+
+/* inner petals */
+#inner-petals .segment-fill {
+    fill: yellow;
+    stroke: yellowgreen;
+    stroke-width: 1;
+}
+
+#inner-petals .segment-edge {
+    fill: none;
+    stroke: yellowgreen;
+    stroke-width: 9;
+}
+
+#inner-petals .segment:hover > .segment-fill {
+    fill: darkseagreen;
+    stroke: none;
+}
+
+#inner-petals .segment:hover > .segment-edge {
+    stroke: green;
+}
+.dialog{
+    margin: 0%;
+    padding: 0%;
+}
+.lamp{
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: black;
+}
+.lamp-div{
+    padding-left: 0%;
+}
+.title{
+    color : #9acfea;
+}
+.Passive{
+    fill: grey;
+}
+
+.Active{
+    fill: green;
+}
+.moveDown{
+   padding-top: 30%;
+}
+.command{
+    padding-left: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,332 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        table.dataTable tbody tr {
+            background-color: #323232;
+        }
+
+        .title {
+            padding-left: 25%;
+            color: ghostwhite;
+        }
+
+        header {
+            background-color: lightseagreen;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: #a7dbd8;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .leftSide {
+
+        }
+
+        .list {
+            padding-top: 2%;
+            color: white;
+        }
+
+        #scheduleJobs, #pendingJobs {
+            border: 1px solid #eee;
+            width: 100%;
+            min-height: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 5px 0 0 0;
+            float: left;
+            margin-right: 10px;
+        }
+
+        #scheduleJobs li, #pendingJobs li {
+            margin: 0 5px 5px 5px;
+            padding: 5px;
+            font-size: 1.2em;
+            width: 100%;
+            background: bottom;
+            background-color: slategrey;
+        }
+
+        span label {
+            padding-left: 2%;
+            width: 25%;
+        }
+
+        #scheduleJobs li a {
+            width: 50%;
+        }
+
+        #scheduleJobs li label, #pendingJobs li label {
+            width: 25%;
+        }
+
+        #activeJobs tbody tr {
+            background-color: green;
+        }
+
+        #activeJobs tbody tr td input {
+            background-color: green;
+        }
+
+        .bg_header {
+            /*padding-left:0;*/
+            /*padding-right: 0;*/
+            width: 100%;
+            position: relative;
+            left: 0;
+            top: 0;
+            height: 110%;
+        }
+
+        .logo {
+            position: absolute;
+            width: 120px;
+            height: 100%;
+            top: 0;
+            left: -15;
+            opacity: 0.8;
+            background-color: #e5e8ff;
+        }
+    </style>
+{{/section}}
+<!--<span id="text">{{{__ "text to test"}}}</span>-->
+<!--<br>-->
+<!--<span id="onecat">{{{__n "%d cat" "%d cats" 1}}}</span>-->
+<!--<br>-->
+<!--<span id="twocats">{{{__n "%d cat" "%d cats" 2}}}</span>-->
+
+<div class="container main">
+    <!--headers-->
+    <div class="row">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-12 bg_header">
+                    <img src="images/logo.png" class="logo"/>
+                    <img src="images/bg_header.jpg"/>
+                </div>
+            </div>
+
+            <!--<div class="row">-->
+            <!--&lt;!&ndash;logo and bg&ndash;&gt;-->
+            <!--<div class="col-lg-3">-->
+            <!--&lt;!&ndash;logo&ndash;&gt;-->
+            <!--<a href="#" title="Home" rel="home" id="logo" class="logo">-->
+            <!--<img src="/images/logo.png" alt="Home">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-9">-->
+            <!--&lt;!&ndash;bg&ndash;&gt;-->
+            <!--<a href="/en" title="Home" rel="home" id="bg_header">-->
+            <!--<img src="/images/bg_header.jpg" alt="Home">-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--</div>-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--Navigation-->
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid">
+                            <!--<div class="navbar-header">-->
+                            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
+                            <!--<span class="icon-bar"></span>-->
+                            <!--<span class="icon-bar"></span>-->
+                            <!--<span class="icon-bar"></span>-->
+                            <!--</button>-->
+                            <!--<a class="navbar-brand" href="#">FLCos</a>-->
+                            <!--</div>-->
+
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">{{{__ "Home"}}}</a></li>
+                                    {{> menus}}
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{{__ "Language"}}} <span
+                                                class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+
+                                                <li><a href="/en"><span
+                                                        class="flag-icon flag-icon-us"></span>{{{__ "English"}}}</a>
+                                                </li>
+                                                <li><a href="/zh"><span
+                                                        class="flag-icon flag-icon-zh"></span>{{{__ "Chinese"}}}</a>
+                                                </li>
+                                                <li><a href="/ru"><span
+                                                        class="flag-icon flag-icon-ru"></span>{{{__ "Russian"}}}</a>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                </ul>
+
+                                {{#if user}}
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="/logout"><span
+                                                class="glyphicon glyphicon-log-out"></span> {{{__ "Logout"}}}</a></li>
+                                        <li><a href="/profile"><span
+                                                class="glyphicon glyphicon-user"></span>
+                                            {{#if user.displayName}}
+                                                {{user.displayName}}
+                                            {{else}}
+                                                {{user.userName}}
+                                            {{/if}}
+                                        </a></li>
+                                    </ul>
+                                {{else}}
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="/signup"><span
+                                                class="glyphicon glyphicon-registration-mark"></span>{{{__ "Sign Up"}}}
+                                        </a></li>
+                                        <li><a href="/login"><span
+                                                class="glyphicon glyphicon-log-in"></span> {{{__ "Login"}}}
+                                        </a></li>
+                                    </ul>
+                                {{/if}}
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">
+
+        </div>
+        <!--左侧固定列-->
+        <div class="col-lg-2">
+            <div class="row" style="background-color: #e5e8ff">
+                <div>
+                    <h3>{{{__ "OUR PROPERTIES"}}}</h3>
+                </div>
+                <div class="col-lg-12">
+                    <span>{{{__ "Type of Property"}}}</span>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">{{{__ "Apartment"}}}</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">{{{__ "House"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Plots"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Commercial Real Estate"}}}</label>
+                    </div>
+                </div>
+                <hr width="100%" style="height: 2%">
+                <div class="col-lg-12">
+                    <span>{{{__ "Rent / Buy"}}}</span>
+                    <div>
+                        <label class="checkbox-inline"><input type="checkbox" value="">{{{__ "Rent"}}}</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="">{{{__ "Buy"}}}</label>
+                    </div>
+
+                </div>
+                <hr width="100%" style="height: 2%">
+                <div class="col-lg-12">
+                    <span>{{{__ "Province"}}}</span>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">{{{__ "Burgenland"}}}</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">{{{__ "Vienna"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Upper Austria"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Salzburg"}}}</label>
+                    </div>
+
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Carinthia"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Lower Austria"}}}</label>
+                    </div>
+
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Tyrol"}}}</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value="" disabled>{{{__ "Styria"}}}</label>
+                    </div>
+                </div>
+                <hr width="100%" style="height: 2%">
+
+                <div class="col-lg-12">
+                    <span>{{{__ "Price in €"}}}</span>
+                    <div class="form-item form-type-select form-item-field-price-tax-tid">
+                        <select class="form-select" id="edit-field-price-tax-tid" name="field_price_tax_tid">
+                            <option selected="selected" value="All">- Any -</option>
+                            <option value="59">{{{__ "Up to 100 000"}}}</option>
+                            <option value="60">100 000 - 300 000</option>
+                            <option value="61">300 000 - 500 000</option>
+                            <option value="62">500 000 - 750 000</option>
+                            <option value="63">750 000 - 1 000 000</option>
+                            <option value="64">1 000 000 - 5 000 000</option>
+                            <option value="66">{{{__ "More / More than 5 000 000"}}}</option>
+                        </select>
+                    </div>
+                    <!--<div class="dropdown">-->
+                    <!--<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--- {{{__ "Any"}}} --->
+                    <!--</button>-->
+                    <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+                    <!--<a class="dropdown-item" href="#">{{{__ "Up to 100 000"}}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{{__ "Up to 100 000"}}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{{__ "Up to 100 000"}}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{{__ "Up to 100 000"}}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{{__ "Up to 100 000"}}}</a>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+                <hr width="100%" style="height: 2%">
+
+                <div class="col-lg-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="usr">{{{__ "ID"}}}</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                    </form>
+                </div>
+                <hr width="100%" style="height: 2%">
+
+                <div class="col-lg-12">
+                    <button class="btn btn-primary center-block">{{{__ "Search"}}}</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+</div>
+
+
+{{#section 'jquery'}}
+    <script src="/js/gcsState.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+{{/section}}

@@ -1,0 +1,80 @@
+<div class="container" ng-app="jobApp" ng-controller="JobDetailCtrl">
+    <input id="job" type="text" class="hidden" value="{{job}}"/>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <form class="form-horizontal" role="form" ng-submit="update()">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="Ident" disabled
+                               ng-model="job.ident"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "State"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="State" disabled
+                               ng-model="job.displayState"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Locked"}}}</label>
+                    <div class="col-md-4">
+                        <label><input type="checkbox" ng-model="job.locked">Locked</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Product"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="Product" disabled
+                               ng-model="product"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "TargetWeight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" name="TargetWeight" step = "any"
+                               ng-model="job.targetWeight"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "ActualWeight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" name="ActualWeight" step = "any"
+                               ng-model="job.actualWeight"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Sender"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="Product" disabled
+                               ng-model="job.recipe.senders[0].StorageId"/>
+                        <select name="senderStorage" id="senderStorage" ng-model="job.recipe.senders[0].StorageId"
+                                ng-options="sender.ident as sender.id for sender in senderStorages">
+                            <option>
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Receiver"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="Receiver" disabled
+                               ng-model="receiver"/>
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <div style="padding-left:300px">
+                        <input type="submit" value="Submit" class="btn btn-primary"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/app/jobApp.js"></script>
+
+{{/section}}

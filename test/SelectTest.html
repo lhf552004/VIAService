@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="../public/vendor/bootstrap/css/bootstrap.css" media="all" />
+    <script src="../public/vendor/jquery/jquery-1.9.1.js"></script>
+    <script src="../public/vendor/bootstrap/js/bootstrap.min.js"> </script>
+    <script src="../public/vendor/angular.min.js"> </script>
+    <script src="../public/vendor/bootstrap/js/bootstrap-combobox.min.js"></script>
+    <script src="../public/vendor/jquery-ui-1.12.0.custom/jquery-ui.js"></script>
+    <script src="selectTestApp.js"></script>
+</head>
+<body ng-app="selectTestApp" ng-controller="SelectTestCtrl">
+<div>
+    <select class="col-md-8" name="senderStorage" id="senderStorage" ng-model="sender.StorageId">
+        <option ng-repeat="senderStorage in senderStorages" value="{[{senderStorage.id}]}">
+            {[{senderStorage.ident}]}
+        </option>
+    </select>
+
+    <input type="checkbox" ng-model="isProduce" ng-change="changeStorages()">
+</div>
+
+</body>
+</html>

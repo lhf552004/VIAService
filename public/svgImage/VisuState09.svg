@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">
+    ._s9 {visibility:hidden;}
+    .s9 ._s9 {visibility:visible;}
+  </style>
+  <defs>
+    <symbol id="sVisuStates_s9" overflow="visible">
+      <g idorigin="BlueTimer">
+         <rect height="22" width="22" y="154" x="0.00183" fill="none"/>
+		<path fill="#898987" stroke="#000" d="M21.518,165c0,5.81-4.708,10.52-10.516,10.52-5.8083,0-10.517-4.71-10.517-10.52s4.7084-10.52,10.517-10.52c5.808,0,10.516,4.71,10.516,10.52z"/>
+		<path fill="#028dff" stroke="#000" d="M19.606,165c0,4.75-3.852,8.6-8.604,8.6-4.7522,0-8.6045-3.85-8.6045-8.6s3.8523-8.61,8.6045-8.61c4.752,0,8.604,3.86,8.604,8.61z"/>
+		<path d="M11.002,156.69,11.002,158.62" stroke="#000" stroke-width="1px" fill="none"/>
+		<path d="M11.002,171.44,11.002,173.37" stroke="#000" stroke-width="1px" fill="none"/>
+		<path d="M4.6268,165,2.6893,165" stroke="#000" stroke-width="1px" fill="none"/>
+		<path d="M19.346,165,17.408,165" stroke="#000" stroke-width="1px" fill="none"/>
+		<path d="M13.299,167.98,10.986,165.26,10.986,159.72" stroke="#000" stroke-width="1px" fill="none"/>
+      </g>
+    </symbol>
+  </defs>
+  <text x="30" y="30" font-size="32" fill="Red">Don't Change Anything with Inkscape!</text>
+  <text x="30" y="440" font-size="32" fill="Red">Need to do it with XML Editor manually</text>
+  <g id="130" title="519" transform="translate(-600,-100)" onclick="viewer.CallFunction('BIN519','Storage');" onactivate="519">
+    <path id="131" title="519" onactivate="519" style="color:#000000;enable-background:accumulate;" fill="#F0F0F0" stroke="#000000" stroke-width="1" stroke-dasharray="none" stroke-miterlimit="4" d="m676,215,37,0,0,260-19,14-18-14,0-260z" />
+    <text id="132" title="519" transform="matrix(0,1,-1,0,0,0)" onactivate="519" x="262" y="-700.5" font-family="Bitstream Vera Sans" font-size="40px" fill="#000000">
+      <tspan id="133" x="262" y="-700.5" font-family="Arial" font-size="13px">Product</tspan>
+    </text>
+    <g id="134" title="519" onactivate="519">
+      <rect id="135" title="519" onactivate="519" fill="#0000FF" x="680" y="263" width="11" height="174" />
+      <g id="136" title="519" onactivate="519" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="1" fill="none">
+        <path id="137" title="519" onactivate="519" style="color:#000000;enable-background:accumulate;" stroke="#808081" d="m691.5,262.5-11.5,0,0,175.5" />
+        <path id="138" title="519" onactivate="519" style="color:#000000;enable-background:accumulate;" stroke="#FFFFFF" d="m691,263,0,174.5-10.5,0" />
+        <path id="139" title="519" onactivate="519" style="color:#000000;enable-background:accumulate;" stroke="#FFFFFF" d="m679.5,438.5,12.5,0,0-176.5" />
+        <path id="140" title="519" onactivate="519" style="color:#000000;enable-background:accumulate;" stroke="#808081" d="m692.5,261.5-13.5,0,0,177.5" />
+      </g>
+    </g>
+    <text id="141" title="519" onactivate="519" x="694.01953" y="252" style="text-anchor:middle;text-align:center;" font-family="Bitstream Vera Sans" font-size="40px" fill="#000000">
+      <tspan id="142" x="694.01953" y="252" style="text-anchor:middle;text-align:center;" font-family="Arial" font-size="12px">100</tspan>
+    </text>
+    <g id="143" title="519" onactivate="519" class="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13">
+      <use xlink:href="#sVisuStates_s1" x="678" y="260" overflow="visible" class="_s1"/>
+      <use xlink:href="#sVisuStates_s2" x="678" y="260" overflow="visible" class="_s2"/>
+      <use xlink:href="#sVisuStates_s3" x="678" y="260" overflow="visible" class="_s3"/>
+      <use xlink:href="#sVisuStates_s4" x="678" y="260" overflow="visible" class="_s4"/>
+      <use xlink:href="#sVisuStates_s5" x="678" y="260" overflow="visible" class="_s5"/>
+      <use xlink:href="#sVisuStates_s6" x="678" y="260" overflow="visible" class="_s6"/>
+      <use xlink:href="#sVisuStates_s7" x="678" y="260" overflow="visible" class="_s7"/>
+      <use xlink:href="#sVisuStates_s8" x="678" y="260" overflow="visible" class="_s8"/>
+      <use xlink:href="#sVisuStates_s9" x="678" y="260" overflow="visible" class="_s9"/>
+      <use xlink:href="#sVisuStates_s10" x="678" y="260" overflow="visible" class="_s10"/>
+      <use xlink:href="#sVisuStates_s11" x="678" y="260" overflow="visible" class="_s11"/>
+      <use xlink:href="#sVisuStates_s12" x="678" y="260" overflow="visible" class="_s12"/>
+      <use xlink:href="#sVisuStates_s13" x="678" y="260" overflow="visible" class="_s13"/>
+    </g>
+  </g>
+  <g transform="translate(-300,-170)" onactivate="552" onclick="Storage">
+    <path stroke-linejoin="miter" style="color: rgb(0, 0, 0);" d="m423,285,37,0,0,164-19,14-18-14,0-164z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#F0F0F0"/>
+    <text font-size="12px" font-family="Bitstream Vera Sans" xml:space="preserve" font-style="normal" y="321.854" x="440.051" font-weight="normal" fill="#000000"><tspan font-size="12px" font-family="Arial" style="text-anchor: middle; text-align: center;" y="321.854" x="440.051">100</tspan></text>
+    <text font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0, 1, -1, 0, 0, 0)" font-style="normal" y="-447.5" x="332" font-weight="normal" fill="#000000"><tspan font-size="13px" font-family="Arial" y="-447.5" x="332">Product</tspan></text>
+    <g>
+      <rect height="78" width="11" y="334" x="426.8" fill="#00F"/>
+      <g stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none">
+        <path style="color: rgb(0, 0, 0);" stroke="#808081" d="m438.3,333.5-11.5,0,0,79.5"/>
+        <path style="color: rgb(0, 0, 0);" stroke="#FFF" d="m437.8,334,0,78.5-10.5,0"/>
+        <path style="color: rgb(0, 0, 0);" stroke="#FFF" d="m426.3,413.5,12.5,0,0-80.5"/>
+        <path style="color: rgb(0, 0, 0);" stroke="#808081" d="m439.3,332.5-13.5,0,0,81.5"/>
+      </g>
+    </g>
+    <g class="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13" transform="translate(2.58639, 0.586858)">
+      <use xlink:href="#sVisuStates_s1" y="331.51" x="423.79" overflow="visible" class="_s1"/>
+      <use xlink:href="#sVisuStates_s2" y="331.51" x="423.79" overflow="visible" class="_s2"/>
+      <use xlink:href="#sVisuStates_s3" y="331.51" x="423.79" overflow="visible" class="_s3"/>
+      <use xlink:href="#sVisuStates_s4" y="331.51" x="423.79" overflow="visible" class="_s4"/>
+      <use xlink:href="#sVisuStates_s5" y="331.51" x="423.79" overflow="visible" class="_s5"/>
+      <use xlink:href="#sVisuStates_s6" y="331.51" x="423.79" overflow="visible" class="_s6"/>
+      <use xlink:href="#sVisuStates_s7" y="331.51" x="423.79" overflow="visible" class="_s7"/>
+      <use xlink:href="#sVisuStates_s8" y="331.51" x="423.79" overflow="visible" class="_s8"/>
+      <use xlink:href="#sVisuStates_s9" y="331.51" x="423.79" overflow="visible" class="_s9"/>
+      <use xlink:href="#sVisuStates_s10" y="331.51" x="423.79" overflow="visible" class="_s10"/>
+      <use xlink:href="#sVisuStates_s11" y="331.51" x="423.79" overflow="visible" class="_s11"/>
+      <use xlink:href="#sVisuStates_s12" y="331.51" x="423.79" overflow="visible" class="_s12"/>
+      <use xlink:href="#sVisuStates_s13" y="331.51" x="423.79" overflow="visible" class="_s13"/>
+    </g>
+  </g>
+</svg>

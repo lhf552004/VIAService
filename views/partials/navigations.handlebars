@@ -1,0 +1,104 @@
+<div class="col-lg-1">
+    <!--navigation buttons-->
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a data-toggle="pill" href="#home">{{{__ "Start"}}}</a></li>
+        {{#each partials.navigations}}
+            <li><a data-toggle="pill" href="#{{index}}">{{name}}</a><button class="btn btn-info" id="{{index}}-cmd">{{{__ "Commands"}}}</button></li>
+        {{/each}}
+
+    </ul>
+</div>
+<div class="col-lg-10">
+    <!--visualization-->
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <!--<img src="/SvgImage/Start.svg" class="img-fluid" alt="Responsive image">-->
+            <input id="navigations" type="text" class="hidden" value="{{partials.naviStr}}"/>
+        </div>
+        {{#each partials.navigations}}
+            <div id="{{index}}" class="tab-pane fade">
+                <!--<svg id="canvas" width="100%" height="100%"></svg>-->
+                <!--<div ng-include="/SvgImage/{{index}}.svg" class="img-fluid" alt="Responsive image"></div>-->
+            </div>
+        {{/each}}
+    </div>
+</div>
+<div id="GCObject-form" title="Create new user">
+    <label id="Category" class="GCObject type">GCObject</label>
+    <fieldset id="modeField">
+        <legend class="title">{{{__ "Mode"}}}</legend>
+        <div class="controlgroup">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <svg height="30" width="30" class="lamp">
+                    <circle id="mode" cx="15" cy="15" r="15" stroke="black" stroke-width="3" fill="none"/>
+                </svg>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog" role="group" aria-label="Mode">
+                <button id="Mannual" type="button" class="btn btn-primary">{{{__ "Mannual"}}}</button>
+                <button id="Aumatic" type="button" class="btn btn-primary">{{{__ "Automatic"}}}</button>
+            </div>
+        </div>
+    </fieldset>
+    <!--<div class="h-divider">-->
+    <br>
+    <fieldset>
+        <legend class="title">{{{__ "Operation"}}}</legend>
+        <div class="controlgroup">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <svg height="30" width="30" class="lamp">
+                    <circle id="status" cx="15" cy="15" r="15" stroke="black" stroke-width="3" fill="none"/>
+                </svg>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog hidden" id="openClose" role="group" aria-label="Operation">
+                <button id="closeGc" type="button" class="btn btn-primary">{{{__ "Close"}}}</button>
+                <button id="OpenGc" type="button" class="btn btn-primary">{{{__ "Open"}}}</button>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog hidden" id="startStop" role="group" aria-label="Operation">
+                <button id="stopGc" type="button" class="btn btn-primary">{{{__ "Stop"}}}</button>
+                <button id="startGc" type="button" class="btn btn-primary">{{{__ "Start"}}}</button>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog hidden" id="healtyUnhealty" role="group" aria-label="Operation">
+                <button id="unhealtyGc" type="button" class="btn btn-primary">{{{__ "unhealty"}}}</button>
+                <button id="healtyGc" type="button" class="btn btn-primary">{{{__ "healty"}}}</button>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog hidden" id="coverUncover" role="group" aria-label="Operation">
+                <button id="uncoverGc" type="button" class="btn btn-primary">{{{__ "uncover"}}}</button>
+                <button id="coverGc" type="button" class="btn btn-primary">{{{__ "cover"}}}</button>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<!--<div id="sectionsCommand-dialog" title="Sections Commands">-->
+    <!--<label id="Category" class="GCObject type">GCObject</label>-->
+    <!--<fieldset>-->
+        <!--<legend class="title">{{{__ "Mode"}}}</legend>-->
+        <!--<div class="controlgroup">-->
+            <!--<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">-->
+                <!--<svg height="30" width="30" class="lamp">-->
+                    <!--<circle id="mode" cx="15" cy="15" r="15" stroke="black" stroke-width="3" fill="none"/>-->
+                <!--</svg>-->
+            <!--</div>-->
+            <!--<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog" role="group" aria-label="Mode">-->
+                <!--<button id="Mannual" type="button" class="btn btn-primary">{{{__ "Mannual"}}}</button>-->
+                <!--<button id="Aumatic" type="button" class="btn btn-primary">{{{__ "Automatic"}}}</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</fieldset>-->
+    <!--&lt;!&ndash;<div class="h-divider">&ndash;&gt;-->
+    <!--<br>-->
+    <!--<fieldset>-->
+        <!--<legend class="title">{{{__ "Operation"}}}</legend>-->
+        <!--<div class="controlgroup">-->
+            <!--<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">-->
+                <!--<svg height="30" width="30" class="lamp">-->
+                    <!--<circle id="status" cx="15" cy="15" r="15" stroke="black" stroke-width="3" fill="none"/>-->
+                <!--</svg>-->
+            <!--</div>-->
+            <!--<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 btn-group dialog" role="group" aria-label="Operation">-->
+                <!--<button id="close" type="button" class="btn btn-primary">{{{__ "Close"}}}</button>-->
+                <!--<button id="Open" type="button" class="btn btn-primary">{{{__ "Open"}}}</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</fieldset>-->
+<!--</div>-->

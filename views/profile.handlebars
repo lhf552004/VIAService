@@ -1,0 +1,31 @@
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> Local</h3>
+
+                <p>
+                    <strong>id</strong>: {{ user.id }}<br>
+                    <strong>username</strong>: {{  user.userName }}<br>
+                    <strong>DisplayName</strong>: {{  user.displayName }}<br/>
+
+                </p>
+                <input type="checkbox" class="checkbox" name="IsAdministrator" value="{{user.IsAdministrator}}">
+            </div>
+            <p>Or go <a href="/">{{{__ "home"}}}</a>.</p>
+        </div>
+
+    </div>
+
+</div>
+{{#section 'jquery'}}
+
+{{/section}}

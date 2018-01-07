@@ -1,0 +1,34 @@
+<div class="container" ng-app="receiptApp" ng-controller="ReceiptListCtrl">
+    <div class="row">
+        <div class="col-lg-8">
+            <input id="receipts" type="text" class="hidden" value="{{receipts}}"/>
+            <input id="state" type="text" class="hidden" value="{{state}}"/>
+            <table class="table table-bordered table-hover">
+                <caption>{{{__ "Receipts Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" ng-model="selectedAll" ng-click="checkAll()"/></th>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "UnitSize"}}}</th>
+                    <th>{{{__ "TargetWeight"}}}</th>
+                    <th>{{{__ "PackagingType"}}}</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="receipt in receipts">
+                    <td>
+                        <input type="checkbox" ng-model="receipt.selected"/>
+                    </td>
+                    <td><a href="/warehouse/station/receiptDetail/:{[{receipt.id}]}">{[{receipt.ident}]}</a></td>
+                    <td>{[{receipt.actualWeight}]}</td>
+                    <td>{[{receipt.actualUnitSize}]}</td>
+                    <td>{[{receipt.packagingType}]}</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/app/receiptApp.js"></script>
+
+{{/section}}

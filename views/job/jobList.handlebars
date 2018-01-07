@@ -1,0 +1,64 @@
+<div class="container main" ng-app="jobApp" ng-controller="JobListCtrl">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <input id="jobs" type="text" class="hidden" value="{{jobs}}"/>
+            <input id="lineIdent" type="text" class="hidden" value="{{lineIdent}}"/>
+            <table class="table table-bordered table-hover">
+                <caption>{[{lineIdent}]} {{{__ "Job Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" ng-model="selectedAll" ng-click="checkAll()"/></th>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "LineIdent"}}}</th>
+                    <th>{{{__ "State"}}}</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="job in jobs">
+                    <td>
+                        <input type="checkbox" ng-model="job.selected"/>
+                    </td>
+                    <td><a href="/job/jobDetail/:{[{job.id}]}">{[{job.ident}]}</a></td>
+                    <td>{[{job.lineIdent}]}</td>
+                    <td>{[{job.displayState}]}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-3">
+            <form class="form-horizontal" role="form" ng-submit="createJob()">
+
+                <button type="submit" class="btn btn-primary">{{{__ "New"}}}</button>
+                <!--<button type="submit" class="btn btn-primary addnew pull-right" ng-click="copyRecipe">{{{__ "Copy"}}}</button>-->
+
+            </form>
+            <button id='deleteJob' class="btn btn-danger" ng-click="remove()">{{{__ "Delete"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/app/jobApp.js"></script>
+
+{{/section}}

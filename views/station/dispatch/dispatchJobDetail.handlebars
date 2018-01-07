@@ -1,0 +1,205 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .title-Detail {
+            padding-left: 25%;
+            color: snow;
+        }
+
+        header {
+            background-color: lightsteelblue;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: skyblue;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+{{/section}}
+
+
+<div class="container main">
+    <label id="15"></label>
+    <!--<input id="receipt" type="text" class="hidden" value="{{receipt}}"/>-->
+    <!--<input id="packingCategory" type="text" class="hidden" value="{{packingCategory}}"/>-->
+    <input id="products" type="text" class="hidden" value="{{products}}"/>
+    <input id="mixers" type="text" class="hidden" value="{{mixers}}"/>
+    <!--<input id="companys" type="text" class="hidden" value="{{companys}}"/>-->
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "ProcessOrder Detail"}}}</h2>
+            <a href="/order/process/ProcessOrderList">{{{__ "ProcessOrder List"}}}</a>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <div class="">
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#general">{{{__ "General"}}}</a></li>
+                    <li><a data-toggle="pill" href="#bom">{{{__ "BOM"}}}</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="general" class="tab-pane fade in active">
+
+                        <div class="row">
+                            <table id="toAssemblyTable" class="table table-bordered table-hover">
+                                <caption>{{{__ "Dispensary job Management"}}}</caption>
+                                <thead>
+                                <tr>
+                                    <th>{{{__ "Ident"}}}</th>
+                                    <th>{{{__ "ProductIdent"}}}</th>
+                                    <th>{{{__ "TargetWeight"}}}</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {{#each dispensaryJobs}}
+                                    <tr id="{{id}}">
+                                        <td><a href="/station/dispensary/dispensaryJobDetail/:{{id}}">{{ident}}</a></td>
+                                        <td>{{productIdent}}</td>
+                                        <td>{{targetWeight}}</td>
+                                    </tr>
+                                {{/each}}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <table id="availableRawTable" class="table table-bordered table-hover">
+                                    <caption>{{{__ "Dispensary job Management"}}}</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>{{{__ "Ident"}}}</th>
+                                        <th>{{{__ "ProductIdent"}}}</th>
+                                        <th>{{{__ "TargetWeight"}}}</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#each dispensaryJobs}}
+                                        <tr id="{{id}}">
+                                            <td><a href="/station/dispensary/dispensaryJobDetail/:{{id}}">{{ident}}</a></td>
+                                            <td>{{productIdent}}</td>
+                                            <td>{{targetWeight}}</td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-lg-6">
+                                <table id="haveAssemblyedTable" class="table table-bordered table-hover">
+                                    <caption>{{{__ "Dispensary job Management"}}}</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>{{{__ "Ident"}}}</th>
+                                        <th>{{{__ "ProductIdent"}}}</th>
+                                        <th>{{{__ "TargetWeight"}}}</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#each dispensaryJobs}}
+                                        <tr id="{{id}}">
+                                            <td><a href="/station/dispensary/dispensaryJobDetail/:{{id}}">{{ident}}</a></td>
+                                            <td>{{productIdent}}</td>
+                                            <td>{{targetWeight}}</td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bom" class="tab-pane fade">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3">
+
+                                <select class="col-lg-8" id="rawProducts">
+                                    <option></option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-9 col-md-9">
+                                <button id="newItem" class="glyphicon glyphicon-plus pull-right">{{{__ "New"}}}</button>
+                                <button id="removeItem"
+                                        class="glyphicon glyphicon-minus pull-right">{{{__ "Remove"}}}</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <table id="bomTable" class="table table-bordered table-hover">
+                                <caption>{{{__ "BOM list"}}}</caption>
+                                <thead>
+                                <tr>
+                                    <th>{{{__ "ProductIdent"}}}</th>
+                                    <th>{{{__ "TargetWeight"}}}</th>
+                                    <th>{{{__ "TargetPercentage"}}}</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {{#each processOrder.orderItems}}
+                                    <tr id="{{id}}">
+                                        <td><label>{{productIdent}}</label></td>
+                                        <td><input type="text" value="{{targetWeight}}" disabled></td>
+                                        <td><input type="number" step="any" value="{{targetPercentage}}" disabled></td>
+                                    </tr>
+                                {{/each}}
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <button id="checkProcessOrder" class="btn btn-primary">{{{__ "Check order"}}}</button>
+            <button id='releaseProcessOrder' class="btn btn-danger">{{{__ "Release order"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/dispensary.js"></script>
+{{/section}}

@@ -1,0 +1,46 @@
+{{#each partials.menus}}
+    <!-- First level-->
+    <li class="dropdown">
+
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{name}} <span
+                class="caret"></span></a>
+        {{#if SubMenus}}
+            <!-- Second level-->
+            <ul class="dropdown-menu">
+                {{#each SubMenus}}
+                    <li>
+                        {{#if SubMenus}}
+                            <a class="dropdown-toggle" data-toggle="dropdown"
+                               href="#">{{name}} <span
+                                    class="caret"></span></a>
+                            <ul class="secondMenu">
+                                {{#each SubMenus}}
+                                    <!-- Third level-->
+                                    <li>
+                                        {{#if clickMethod}}
+                                            <a href="{{url}}" onclick="{{clickMethod}}">{{name}}</a>
+                                        {{else}}
+                                            <a target="_blank" href="{{url}}">{{name}}</a>
+                                        {{/if}}
+                                        <!--<div><a target="_blank" href="{{url}}">{{name}}</a></div>-->
+                                    </li>
+                                {{/each}}
+                            </ul>
+                        {{else }}
+
+                            {{#if keepPage}}
+                                <a href="{{url}}">{{name}}</a>
+                            {{else}}
+                                <a target="_blank" href="{{url}}">{{name}}</a>
+                            {{/if}}
+
+                        {{/if}}
+                    </li>
+                {{/each}}
+
+
+            </ul>
+        {{/if}}
+
+    </li>
+{{/each}}

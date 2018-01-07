@@ -1,0 +1,204 @@
+{{#section 'head'}}
+    <style>
+        .title-Detail {
+            padding-left: 25%;
+            color: snow;
+        }
+
+        header {
+            background-color: lightsteelblue;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: skyblue;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+{{/section}}
+<div class="container main">
+
+    <input id="receipt" type="text" class="hidden" value="{{receipt}}"/>
+    <input id="packingCategory" type="text" class="hidden" value="{{packingCategory}}"/>
+    <input id="products" type="text" class="hidden" value="{{products}}"/>
+    <input id="companys" type="text" class="hidden" value="{{companys}}"/>
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "Receipt Detail"}}}</h2>
+            <a href="/warehouse/station/receiptList">{{{__ "Receipt List"}}}</a>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Infomations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <form class="form-horizontal" role="form" method="post">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="ident" name="ident" disabled
+                               value="{{receipt.ident}}"/>
+                        <input type="text" class="form-control hidden" id="receiptId" name="id"
+                               value="{{receipt.id}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Name"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="name" name="name"
+                               value="{{receipt.name}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Supplier"}}}</label>
+                    <div class="col-md-4">
+                        <select class="col-md-6" name="suppliers" id="suppliers">
+                            <option></option>
+                        </select>
+                        <input type="text" class="col-md-6 form-control" id="supplierName" disabled
+                        />
+                        <input type="text" class="col-md-6 form-control hidden" id="supplierId" value = "{{receipt.SupplierId}}"
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "PackagingType"}}}</label>
+                    <div class="col-md-4">
+                        <select class="col-md-6" id="packagingTypes">
+                            <option></option>
+                        </select>
+                        <input type="text" class="col-md-6 form-control" id="packagingTypeName" disabled
+                        />
+                        <input type="text" class="col-md-6 form-control hidden" id="packagingType" value = "{{receipt.packagingType}}"
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Product"}}}</label>
+                    <div class="col-md-4">
+                        <select class="col-md-6" id="productsSelect">
+                            <option></option>
+                        </select>
+                        <input type="text" class="col-md-6 form-control" id="productName" disabled
+                        />
+                        <input type="text" class="col-md-6 form-control hidden" id="productId" value = "{{receipt.ProductId}}"
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Target Weight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="targetWeight" name="targetWeight" step="any"
+                               disabled
+                               value="{{receipt.targetWeight}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Target Unit Size"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="targetUnitSize" name="targetUnitSize" disabled
+                               value="{{receipt.targetUnitSize}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Lot"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="lot" name="lot"
+                               value="{{receipt.lot}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Actual Weight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="actualWeight" name="actualWeight" disabled
+                               value="{{receipt.actualWeight}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Actual Unit Size"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="actualUnitSize" name="actualUnitSize"
+                               value="{{receipt.actualUnitSize}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "actual Nb Of Units"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="actualNbOfUnits" name="actualNbOfUnits"
+                               value="{{receipt.actualNbOfUnits}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Creation Time"}}}</label>
+                    <div class="col-md-4">
+                        <input type="datetime" class="form-control" id="createdAt" name="createdAt" disabled
+                               value="{{receipt.createdAt}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Update Time"}}}</label>
+                    <div class="col-md-4">
+                        <input type="datetime" class="form-control" id="updatedAt" name="updatedAt" disabled
+                               value="{{receipt.updatedAt}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <button id='save' type="submit" class="btn btn-primary">{{{__ "save"}}}</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-3">
+            <button id='confirmReceipt' type="button" class="btn btn-primary">{{{__ "confirm Receipt"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js//receipt.js"></script>
+{{/section}}

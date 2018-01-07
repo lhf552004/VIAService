@@ -1,0 +1,287 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .title-Detail {
+            padding-left: 25%;
+            color: snow;
+        }
+
+        header {
+            background-color: lightsteelblue;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: skyblue;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+{{/section}}
+
+<div class="container main">
+    <!--<input id="receipt" type="text" class="hidden" value="{{receipt}}"/>-->
+    <!--<input id="packingCategory" type="text" class="hidden" value="{{packingCategory}}"/>-->
+    <input id="products" type="text" class="hidden" value="{{products}}"/>
+    <input id="mixers" type="text" class="hidden" value="{{mixers}}"/>
+    <!--<input id="companys" type="text" class="hidden" value="{{companys}}"/>-->
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "Recipe Detail"}}}</h2>
+            <a href="/admin/recipe/recipeList">{{{__ "Recipe List"}}}</a>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <div class="">
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#general">{{{__ "General"}}}</a></li>
+                    <li><a data-toggle="pill" href="#sender">{{{__ "Sender"}}}</a></li>
+                    <li><a data-toggle="pill" href="#receiver">{{{__ "Receiver"}}}</a></li>
+                    <li><a data-toggle="pill" href="#jobParameter">{{{__ "Job parameter"}}}</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="general" class="tab-pane fade in active">
+                        <form id="recipeForm" class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="ident" name="ident" disabled
+                                           value="{{recipe.ident}}"/>
+                                    <input type="text" class="form-control hidden" id="recipeId" name="recipeId"
+                                           value="{{recipe.id}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Name"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           value="{{recipe.name}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "LineIdent"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="lineIdent" name="lineIdent"
+                                           value="{{recipe.lineIdent}}" disabled/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-2">
+
+                                </div>
+                                <label class="checkbox-inline col-md-4">{{{__ "IsProduced"}}}</label>
+                                <input id="isProduced" type="checkbox" checked="{{recipe.isProduced}}">
+                            </div>
+                            <div class="form-group">
+                                <button id='save' type="submit" class="btn btn-primary">{{{__ "save"}}}</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="sender" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-9">
+
+                                <table id="sendersTable" class="table table-bordered table-hover">
+                                    <caption>{{{__ "sender Management"}}}</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>{{{__ "ProductIdent"}}}</th>
+                                        <th>{{{__ "StorageIdent"}}}</th>
+                                        <th>{{{__ "TargetPercentage"}}}</th>
+                                        <th>{{{__ "TargetWeight"}}}</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#each recipe.senders}}
+                                        <tr id="{{id}}">
+                                            <td>
+                                                <input id="tags{{id}}" class="autoComplete" value="{{productIdent}}"
+                                                       disabled/>
+                                            </td>
+                                            <td><input type="text" value="{{storageIdent}}" disabled></td>
+                                            <td>
+
+                                                <input type="number" class="targetWeightPercentage"
+                                                       value="{{targetPercentage}}" disabled>%
+
+                                            </td>
+                                            <td><label>{{targetWeight}} kg</label>
+                                            </td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-lg-3">
+                                <!--navigation buttons-->
+                                <button type="submit" class="btn btn-primary" id="createSender">{{{__ "New"}}}</button>
+                                <button id='removeSender' class="btn btn-danger">{{{__ "Delete"}}}</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="receiver" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-9">
+
+                                <table id="receiversTable" class="table table-bordered table-hover">
+                                    <caption>{{{__ "receiver Management"}}}</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>{{{__ "ProductIdent"}}}</th>
+                                        <th>{{{__ "StorageIdent"}}}</th>
+                                        <th>{{{__ "TargetPercentage"}}}</th>
+                                        <th>{{{__ "TargetWeight"}}}</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#each recipe.receivers}}
+                                        <tr id="{{id}}">
+                                            <td><label>{{productIdent}}</label></td>
+                                            <td><input type="text" value="{{storageIdent}}" disabled></td>
+                                            <td><input type="text" value="{{targetWeight}}" disabled>kg</td>
+                                            <td><input type="number" step="any" value="{{targetPercentage}}" disabled>%
+                                            </td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-lg-3">
+                                <!--navigation buttons-->
+                                <button type="submit" class="btn btn-primary"
+                                        id="createReceiver">{{{__ "New"}}}</button>
+                                <button id='removeReceiver' class="btn btn-danger">{{{__ "Delete"}}}</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="jobParameter" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-9">
+
+                                <table id="jobParametersTable" class="table table-bordered table-hover">
+                                    <caption>{{{__ "jobParameter Management"}}}</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>{{{__ "Ident"}}}</th>
+                                        <th>{{{__ "Name"}}}</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {{#each recipe.jobParameters}}
+                                        <tr id="{{id}}">
+                                            <td>{{ident}}</td>
+                                            <td>{{name}}</td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-lg-3">
+                                <!--navigation buttons-->
+                                <button type="submit" class="btn btn-primary"
+                                        id="createParameter">{{{__ "New"}}}</button>
+                                <button id='removeParameter' class="btn btn-danger">{{{__ "Delete"}}}</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form id="parameterForm" class="form-horizontal hidden" role="form" method="post">
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="paraIdent" name="paraIdent"/>
+                                            <input type="text" class="form-control hidden" id="paraId" name="paraId"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">{{{__ "Name"}}}</label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="paraName" name="paraName"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">{{{__ "NodeId"}}}</label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="paraNodeId"
+                                                   name="paraNodeId"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">{{{__ "NodeValue"}}}</label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="paraNodeValue"
+                                                   name="paraNodeValue"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">{{{__ "Type"}}}</label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="paraType"
+                                                   name="paraType"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button id='paraSave' type="submit" class="btn btn-primary">{{{__ "save"}}}</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <button id="checkProcessOrder" class="btn btn-primary">{{{__ "Check order"}}}</button>
+            <button id='releaseProcessOrder' class="btn btn-danger">{{{__ "Release order"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/recipe.js"></script>
+{{/section}}

@@ -1,0 +1,40 @@
+<div class="container" >
+
+
+    <div class="row">
+        <div class="col-lg-8">
+            <h2>{{{__ "Receipt Detail"}}}</h2>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label class="col-md-2 control-label">{{{__ "Ident"}}}  </label>{{data.Ident}}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label class="col-md-2 control-label">{{{__ "Name"}}}  </label>{{data.Name}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label class="col-md-2 control-label">{{{__ "SupplierName"}}}  </label>{{data.SupplierName}}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label class="col-md-4 control-label">{{{__ "Lot"}}}  </label>{{data.Lot}}
+            </div>
+        </div>
+    </div>
+
+</div>
+{{#section 'jquery'}}
+    <script>
+        $(function () {
+            //window.print();
+        });
+
+    </script>
+{{/section}}

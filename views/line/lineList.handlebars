@@ -1,0 +1,40 @@
+<div class="container" ng-app="lineApp" ng-controller="LineListCtrl">
+    <div class="row">
+        <div class="col-lg-8">
+            <input id="lines" type="text" class="hidden" value="{{lines}}"/>
+            <table class="table table-bordered table-hover">
+                <caption>{{{__ "Line Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" ng-model="selectedAll" ng-click="checkAll()"/></th>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "Category"}}}</th>
+                    <th>{{{__ "State"}}}</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="line in lines">
+                    <td>
+                        <input type="checkbox" ng-model="line.selected"/>
+                    </td>
+                    <td><a href="/line/lineDetail/:{[{line.id}]}">{[{line.ident}]}</a></td>
+                    <td><span ng-model="line.category"></span></td>
+                    <td><span ng-model="line.state"></span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-3" style="padding-top: 80px">
+            <div class="row">
+                <button class="btn btn-primary" ng-click="createLine()">{{{__ "New"}}}</button>
+            </div>
+            <div class="row" style="padding-top: 20px">
+                <button id='deleteLine' class="btn btn-danger" ng-click="remove()">{{{__ "Delete"}}}</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/app/lineApp.js"></script>
+
+{{/section}}

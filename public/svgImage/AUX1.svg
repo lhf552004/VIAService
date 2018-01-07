@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7214" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="845" width="1590" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title5184">AUX1</title>
+ <metadata id="metadata7219">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>AUX1</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect id="rect3386-2-1-9" rx="5.847" ry="1.2207" height="81" width="424.97" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" y="353.01" x="1037.2" stroke-width="0.8128" fill="#f7ebce"/>
+ <rect id="rect3386-2-0-4" stroke-dasharray="none" rx="7.6243" ry="11.614" height="672.76" width="554.14" stroke="#000" stroke-miterlimit="4" y="118.89" x="203.41" stroke-width="1.588" fill="#f7ebce"/>
+ <rect id="rect17211" stroke-linejoin="miter" fill-opacity="0.18049" rx="7.6037" ry="11.614" height="44.548" width="553.58" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" y="72.972" x="208.42" stroke-width="0.99865" fill="#74e900"/>
+ <rect id="rect3386-2-1" rx="5.8363" ry="4.668" height="270.4" width="424.19" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" y="473.08" x="1037.9" stroke-width="1.588" fill="#f7ebce"/>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-weight="bold" xml:space="preserve" transform="scale(1.0583751,0.94484461)" font-style="normal" line-height="125%" font-stretch="normal" font-size="24px" font-variant="normal" y="526.05176" x="1103.969" font-family="Sans" fill="#000000"><tspan id="tspan3227" y="526.05176" x="1103.969">控制回路监控</tspan></text>
+ <g id="g603-2-7-4-9-5" onactivate="A_0100_PPW01" onfocusout="Symbol: v1.0" transform="translate(245.97746,-196.46663)" onfocusin="Library: v2.1" onclick="GcObject">
+  <g id="g605-8-2-0-1-2" onload="q=PLCEQ;">
+   <path id="path607-3-0-9-08-5" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-8-8" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="11px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="569.76257" x="1028.1989" font-weight="normal" fill="#000000"><tspan id="tspan3099">230VAC 电源监控</tspan></text>
+ <rect id="rect3386-2-1-6" stroke-linejoin="round" rx="5.8363" ry="1.9673" height="113.96" width="424.19" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" y="71.358" x="1037" stroke-width="1.588" fill="#f7ebce"/>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-1" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-weight="bold" xml:space="preserve" transform="scale(1.0583751,0.94484461)" font-style="normal" line-height="125%" font-stretch="normal" font-size="24px" font-variant="normal" y="98.764954" x="1125.7858" font-family="Sans" fill="#000000"><tspan id="tspan3221" y="98.764954" x="1125.7858">PLC监控</tspan></text>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-8-56" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="11px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="136.9751" x="1027.3428" font-weight="normal" fill="#000000"><tspan id="tspan4726" y="136.9751" x="1027.3428">PLC 系统</tspan></text>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-8-8-0" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="11px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="173.16797" x="1027.3428" font-weight="normal" fill="#000000"><tspan id="tspan4738" y="173.16797" x="1027.3428">PLC 电池监控</tspan></text>
+ <rect id="rect3386-2-1-6-7" rx="5.8363" ry="1.4054" height="81.41" width="424.19" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" y="229.61" x="1036.9" stroke-width="1.588" fill="#f7ebce"/>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-1-8" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-weight="bold" xml:space="preserve" transform="scale(1.0583751,0.94484461)" font-style="normal" line-height="125%" font-stretch="normal" font-size="24px" font-variant="normal" y="270.48779" x="1082.2565" font-family="Sans" fill="#000000"><tspan id="tspan3223" y="270.48779" x="1082.2565">WINCOS通讯监控</tspan></text>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-8-5-2-6" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="11px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="306.9968" x="1027.2747" font-weight="normal" fill="#000000"><tspan id="tspan4811" y="306.9968" x="1027.2747">PLC 与 PC 通讯监控</tspan></text>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-1-8-8" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-weight="bold" xml:space="preserve" transform="scale(1.0583751,0.94484461)" font-style="normal" line-height="125%" font-stretch="normal" font-size="24px" font-variant="normal" y="399.24756" x="1148.3394" font-family="Sans" fill="#000000"><tspan id="tspan3225" y="399.24756" x="1148.3394">报警</tspan></text>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-6-8-5-2-6-7" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="11px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="441.0488" x="1027.2205" font-weight="normal" fill="#000000"><tspan id="tspan4854" y="441.0488" x="1027.2205">报警</tspan></text>
+ <g id="g603-2-7-4-9-5-1" onfocusout="Symbol: v1.0" transform="translate(250.74108,-205.548)" onactivate="A_0024_DC01" onfocusin="Library: v2.1"></g>
+ <text id="text757-6-6-79-2-3-5-4-5-06-7-3-8-4-2-3-8-1-7-3" style="writing-mode:lr;text-anchor:start;text-align:start;" line-height="125%" font-family="Sans" xml:space="preserve" font-size="23.9999999px" font-style="normal" transform="scale(1.0583751,0.94484461)" font-stretch="normal" font-variant="normal" y="109.34248" x="413.54535" font-weight="bold" fill="#000000"><tspan id="tspan3219">网络总览</tspan></text>
+ <rect id="rect16604-9" stroke-linejoin="miter" stroke-dasharray="none" rx="0.14908" ry="2.1551" height="25" width="122.22" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="203.66" x="367.59" stroke-width="0.74681" fill="#00f100"/>
+ <text id="text3823-7-9-4-6" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="14px" line-height="125%" y="219.60489" font-stretch="normal" font-variant="normal" font-style="normal" x="373.99496" font-weight="bold" fill="#000000"><tspan id="tspan17237" y="219.60489" x="373.99496">CPU 319-3PN/DP</tspan></text>
+ <path id="path17280" stroke-linejoin="miter" d="m222.55,143.07h30.113" stroke="#00F" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#00F"/>
+ <text id="text3823-7-9-4-6-70" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="10px" line-height="125%" y="146.64813" font-stretch="normal" font-variant="normal" font-style="normal" x="257.33881" font-weight="bold" fill="#000000"><tspan id="tspan17303" y="146.64813" x="257.33881">Profinet</tspan></text>
+ <path id="path17280-8" stroke-linejoin="miter" d="m222.55,159.9h30.113" stroke="#F0F" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#F0F"/>
+ <text id="text3823-7-9-4-6-70-5" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="10px" line-height="125%" y="163.48584" font-stretch="normal" font-variant="normal" font-style="normal" x="257.33881" font-weight="bold" fill="#000000"><tspan id="tspan17329" y="163.48584" x="257.33881">Profibus</tspan></text>
+ <rect id="rect17211-9" stroke-linejoin="miter" fill-opacity="0.18049" rx="5.8076" ry="8.8086" height="33.919" width="423.35" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" x="1037.6" y="71.474" stroke-miterlimit="4" stroke-width="0.76008" fill="#74e900"/>
+ <rect id="rect17211-9-3" stroke-linejoin="miter" fill-opacity="0.18049" rx="5.8076" ry="8.8086" height="33.919" width="423.35" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" y="230.54" x="1037.9" stroke-width="0.76008" fill="#74e900"/>
+ <rect id="rect17211-9-7" stroke-linejoin="miter" fill-opacity="0.18049" rx="5.8076" ry="8.8086" height="33.919" width="423.35" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" y="353.57" x="1037.5" stroke-width="0.76008" fill="#74e900"/>
+ <rect id="rect17211-9-36" stroke-linejoin="miter" fill-opacity="0.18049" rx="5.8076" ry="8.8086" height="33.919" width="423.35" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" y="473.07" x="1038.2" stroke-width="0.76008" fill="#74e900"/>
+ <rect id="rect16604-9-5-5-9" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="360.23" x="317.29" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-5" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="302.9133" x="395.24976" font-weight="bold" fill="#000000"><tspan id="tspan17451-2" y="302.9133" x="395.24976">CWA01</tspan></text>
+ <g id="g3890-4-3" onactivate="A_2010_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-2046.2533,-296.15911)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-7" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-7" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-6" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan19934">12</tspan></text>
+ </g>
+ <rect id="rect16604-9-5-5-0" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="425.11" x="317.29" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-2" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="355.42847" x="395.24979" font-weight="bold" fill="#000000"><tspan id="tspan17451-4" y="355.42847" x="395.24979">CWA02</tspan></text>
+ <g id="g3890-4-5" onactivate="A_2019_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-2046.2534,-231.28207)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-8" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-4" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-8" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan19936">13</tspan></text>
+ </g>
+ <rect id="rect16604-9-5-5-6" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="489.98" x="317.17" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-3" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="407.94363" x="395.09991" font-weight="bold" fill="#000000"><tspan id="tspan17451-3" y="407.94363" x="395.09991">CWA03</tspan></text>
+ <g id="g3890-4-6" onactivate="A_2028A_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-2046.3749,-166.405)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-1" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-8" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-48" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan19938">14</tspan></text>
+ </g>
+ <rect id="rect16604-9-5-5-3" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="360.6" x="525.63" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-26" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="303.21136" x="652.63489" font-weight="bold" fill="#000000"><tspan id="tspan17451-5" y="303.21136" x="652.63489">CWA04</tspan></text>
+ <g id="g3890-4-1" onactivate="A_2028B_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-1837.9114,-295.79094)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-6" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-44" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-2" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan19940">15</tspan></text>
+ </g>
+ <rect id="rect16604-9-5-5-06" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="425.35" x="525.75" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-9" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="355.62842" x="655.25555" font-weight="bold" fill="#000000"><tspan id="tspan19944" y="355.62842" x="655.25555">CWA05</tspan></text>
+ <g id="g3890-4-0" onactivate="A_2035_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-1837.7899,-231.03522)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-2" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-6" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-5" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan19942">16</tspan></text>
+ </g>
+ <rect id="rect16604-9-5-5-98-9" stroke-linejoin="miter" stroke-dasharray="none" rx="0.060842" ry="1.6542" height="19.19" width="36.577" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="491.09" x="525.34" stroke-width="0.79698" fill="#CCC"/>
+ <text id="text3823-7-9-76-3-2-1-3" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" transform="scale(0.80945666,1.2353966)" font-style="normal" line-height="125%" font-stretch="normal" font-size="8.41319847px" font-variant="normal" y="408.83807" x="652.2749" font-weight="bold" fill="#000000"><tspan id="tspan20177">Bagging</tspan></text>
+ <g id="g3890-4-2-5" onactivate="A_2047_KCU01DP" onfocusout="Symbol: v1.0" transform="matrix(0.77913123,0,0,1,-1838.104,-165.42014)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g3835-6-0-72-0" stroke-linejoin="miter" onload="q=PLCEQ;" transform="translate(2460,-381)" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1">
+   <path id="rect3777-0-3-78-3" d="m621.5,1037.5,58.996,0,0,18.996-58.996,0z" stroke="#000" stroke-width="1.00422716" fill="#c0c0c0"/>
+  </g>
+  <text id="text3823-7-9-28-9" style="writing-mode:lr-tb;text-anchor:start;text-align:start;" font-family="Sans" xml:space="preserve" font-size="12.4619894px" line-height="125%" y="670.56067" font-stretch="normal" font-variant="normal" font-style="normal" x="3104.23" font-weight="normal" fill="#000000"><tspan id="tspan20024">17</tspan></text>
+ </g>
+ <g id="g603-2-7-4-9-5-17" onactivate="PLC1_A_0100_PAZ01" onfocusout="Symbol: v1.0" transform="translate(245.97746,-317.35922)" onfocusin="Library: v2.1" onclick="GcObject">
+  <g id="g605-8-2-0-1-2-4" onload="q=PLCEQ;">
+   <path id="path607-3-0-9-08-5-0" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g603-2-7-4-9-5-9" onactivate="PLC1_SYS_COM_PCC1_PLC1" onfocusout="Symbol: v1.0" transform="translate(245.97746,-445.37822)" onfocusin="Library: v2.1" onclick="GcObject">
+  <g id="g605-8-2-0-1-2-48" onload="q=PLCEQ;">
+   <path id="path607-3-0-9-08-5-8" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g603-2-7-4-9-5-2" onactivate="PLC1_G_PLC1_BAT" onfocusout="Symbol: v1.0" transform="translate(245.97746,-569.6783)" onfocusin="Library: v2.1" onclick="GcObject">
+  <g id="g605-8-2-0-1-2-45" onload="q=PLCEQ;">
+   <path id="path607-3-0-9-08-5-5" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g603-2-7-4-9-5-171" onactivate="PLC1_G_PLC1_System" onfocusout="Symbol: v1.0" transform="translate(245.97746,-605.51255)" onfocusin="Library: v2.1" onclick="GcObject">
+  <g id="g605-8-2-0-1-2-1" onload="q=PLCEQ;">
+   <path id="path607-3-0-9-08-5-52" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Macro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/vendor/bootstrap/css/bootstrap.css"/>
+    <script type="text/javascript" src="public/vendor/jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="public/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/vendor/JsBarcode.all.min.js"></script>
+    <style>
+        .barcode{
+            width: 100%;
+            padding-left: 5%;
+        }
+    </style>
+    <script>
+        $(function () {
+            var barcodeText = $('#barcodeText').val();
+            JsBarcode("#barcode", barcodeText);
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2>Macro Label</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">JobIdent</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="Ident" value="<%= jobIdent %>"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">state</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="state"
+                                       value="<%= state %>"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Target weight</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="targetWeight" value="<%= targetWeight %>"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Actual weight</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="actualWeight" value="<%= actualWeight %>"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Source</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="source" value="<%= source %>"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Target</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="target" value="<%= target %>"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group barcode">
+                            <img id="barcode" />
+                            <!--<img src='temps/imgs/receipt.png' class="barcode" alt="barcode"/>-->
+                        </div>
+                        <!--<%= barcode %>-->
+                        <input id="barcodeText" type="text" class="form-control hidden" name="Supplier" value="<%= barcode %>"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
+
+        </div>
+
+    </div>
+
+
+
+</div>
+</body>
+</html>

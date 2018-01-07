@@ -1,0 +1,46 @@
+{{#section 'head'}}
+
+
+
+{{/section}}
+
+
+<div class="container">
+    <div class="col-sm-6 col-sm-offset-3">
+        <h1><span class="fa fa-sign-in"></span> Login</h1>
+
+        <!-- show any messages that come back with authentication -->
+        {{#if message }}
+            <div class="alert alert-danger">{{ message }}</div>
+        {{/if}}
+
+
+        <!-- LOGIN FORM -->
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" name="username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+
+            <div class="form-group checkbox">
+                <label><input type="checkbox" name="remember" value="yes">Remember Me</label>
+            </div>
+
+            <button type="submit" class="btn btn-warning btn-lg">{{{__ "Login"}}}</button>
+        </form>
+
+        <hr>
+
+        <p>Need an account? <a href="/signup">{{{__ "Signup"}}}</a></p>
+        <p>Or go <a href="/">{{{__ "home"}}}</a>.</p>
+    </div>
+</div>
+
+{{#section 'jquery'}}
+
+
+{{/section}}

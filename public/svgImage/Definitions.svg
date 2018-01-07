@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">
+    ._c8, ._c7, ._c6, ._c5, ._c4, ._c3, ._c2, ._c0 {visibility:hidden;}
+    .c8 ._c8, .c7 ._c7, .c6 ._c6, .c5 ._c5, .c4 ._c4, .c3 ._c3, .c2 ._c2, .c0 ._c0 {visibility:visible;}
+    ._i0 {visibility:hidden;}
+    .i0 ._i0 {visibility:visible;}
+  </style>
+  <defs>
+   <marker id="MarkE0" refY="0" refX="0" orient="auto" overflow="visible">
+    <path id="pathE0" d="M4,0l-6,3l0,-6l6,3z" fill="#C0C0C0" stroke="none" />
+   </marker>
+   <marker id="MarkS0" refY="0" refX="0" orient="auto" overflow="visible">
+    <path id="pathS0" d="M-4,0l6,3l0,-6l-6,3z" fill="#C0C0C0" stroke="none" />
+   </marker>
+    <symbol id="iIcons_i0" idorigin="InfoSymbol" overflow="visible">
+      <g>
+        <circle id="sym_Info_1" stroke-width="0.5" stroke="#000" transform="translate(12,0)" cy="0.18707" cx="-24.848" stroke-miterlimit="10" r="5.7754" fill="#ef7d81"/>
+        <path id="sym_Info_2" stroke-width="0" fill="#FF0" d="m-11.911-4.6008c0.27014,0.000009,0.49841,0.094559,0.68481,0.28365,0.1864,0.18911,0.27959,0.41603,0.2796,0.68076-0.000004,0.26475-0.09455,0.49032-0.28365,0.67671-0.1891,0.18641-0.41602,0.27961-0.68076,0.2796-0.25934,0.0000072-0.48221-0.093192-0.6686-0.2796-0.1864-0.18639-0.2796-0.41196-0.2796-0.67671-0.000002-0.26473,0.09185-0.49165,0.27555-0.68076,0.1837-0.18909,0.40791-0.28364,0.67266-0.28365zm0.40522,3.0067-1.3372,4.6357c-0.07024,0.26474-0.10536,0.44033-0.10536,0.52678-0.000002,0.043224,0.01891,0.086447,0.05673,0.12967,0.03782,0.043224,0.07834,0.064835,0.12156,0.064834,0.07564,7E-7,0.14858-0.032416,0.21882-0.097252,0.1999-0.16208,0.43493-0.45384,0.70507-0.87526l0.22692,0.12967c-0.65915,1.1454-1.3588,1.7181-2.099,1.7181-0.28095-2E-7-0.50517-0.079692-0.67266-0.23908-0.16749-0.15938-0.25123-0.36064-0.25123-0.60377-0.000001-0.16208,0.03782-0.36739,0.11346-0.61593l0.90768-3.1202c0.08644-0.29715,0.12967-0.52137,0.12967-0.67266-0.000001-0.097246-0.04187-0.18369-0.12562-0.25934-0.08375-0.075635-0.19586-0.11345-0.33633-0.11346-0.07024,0.00000544-0.14858,0.002707-0.23502,0.008104l0.08104-0.25934,2.2125-0.35659z"/>
+      </g>
+    </symbol>
+    <symbol id="cLines_c0" idorigin="Manual" overflow="visible">
+     <line y2="0.18707" x2="0.01519" y1="-13.29321" x1="-13.46509" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c2" idorigin="Forced" overflow="visible">
+     <line y2="0.18707" x2="0.01519" y1="0.18707" x1="-19.24235" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c3" idorigin="HWStop" overflow="visible">
+     <line y2="-13.29321" x2="13.49547" y1="0.18707" x1="0.01519" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c4" idorigin="DPfault" overflow="visible">
+     <line y2="0.18707" x2="19.27273" y1="0.18707" x1="0.01519" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c5" idorigin="Input" overflow="visible">
+     <line y2="13.66734" x2="13.49547" y1="0.18707" x1="0.01519" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c6" idorigin="Warning" overflow="visible">
+     <line y2="0.18707" x2="0.01519" y1="-19.07048" x1="0.01519" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c7" idorigin="Reserve" overflow="visible">
+     <line y2="19.44461" x2="0.01519" y1="0.18707" x1="0.01519" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cLines_c8" idorigin="Printer" overflow="visible">
+      <line y2="0.18707" x2="0.01519" y1="13.66734" x1="-13.46509" stroke="#000000" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="cIcons_c0" idorigin="Manual" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_1_1" cx="-17.14472" cy="-17.14472" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_0_2" d="m-19.32711,-13.03563v-0.59929l-1.7975,-1.7975v-1.19782h2.3968v-4.7932h1.1982v-0.59929h1.19821v1.1982h1.1982v1.1982h1.19821v6.5907h-5.39211l0,0l0,0l-0.00001,0z" fill="#c0c0c0" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <line id="sym_0_3" y2="-16.03134" x2="-17.52961" y1="-21.42345" x1="-17.52961" fill="none" stroke-linecap="round" stroke="#000000" stroke-width="0.5"/>
+        <line id="sym_0_4" y2="-16.03134" x2="-16.3314" y1="-20.82454" x1="-16.3314" fill="none" stroke-linecap="round" stroke="#000000" stroke-width="0.5"/>
+        <line id="sym_0_5" y2="-16.03134" x2="-15.13281" y1="-19.62634" x1="-15.13281" fill="none" stroke-linecap="round" stroke="#000000" stroke-width="0.5"/>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c2" idorigin="Forced" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_2_1" cx="-24.84774" cy="0.18707" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_2_2" d="m-23.05048,-2.6173l2.5366,3.0084l0.23533,-2.7723l-2.77194,-0.2361l0.00001,0z" fill="#ffff00" stroke="#ffff00" stroke-width="0.5"/>
+        <path id="sym_2_3" d="m-21.79913,-1.05475l-3.67973,3.11703v-3.13898l-3.93933,4.06952" fill="none" stroke-width="1.0" stroke="#ffff00"/>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c3" idorigin="HWStop" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_3_1" cx="17.51944" cy="-17.14456" stroke-miterlimit="10" r="5.77734" fill="#ff8080" stroke="#1d1d1b" stroke-width="0.5"/>
+        <rect id="sym_3_2" height="8.08817" width="8.08817" y="-21.18864" x="13.47535" fill="#ffff00" stroke="#000000" stroke-width="0.5"/>
+        <circle id="sym_3_3" cx="17.51944" cy="-17.14456" r="2.50391" fill="#ff0000" stroke="#000000" stroke-width="0.5"/>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c4" idorigin="DPfault" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_4_1" cx="25.46221" cy="0.18761" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <rect id="sym_4_2" height="5.23998" width="12.32483" y="-2.35593" x="19.2998" fill="none" stroke-width="0.5"/>
+        <text id="sym_4_3" font-size="18px" fill="#800000" font-family="Sans-serif" y="57.3438" x="105.24" transform="matrix(0.385151, 0, 0, 0.385151, -19.5011, -19.5276)" stroke-width="0.5">DP</text>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c5" idorigin="Input" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_5_1" cx="17.51885" cy="17.51885" stroke-miterlimit="10" r="5.77734" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_5_2" d="m12.51188,18.09597h2.50348l3.85151,-2.69605" fill="none" stroke-width="1.5" stroke="#000000"/>
+        <path id="sym_5_3" d="m19.4446,18.09597h3.08121" fill="none" stroke-width="1.5" stroke="#000000"/>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c6" idorigin="Warning" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_6_1" cx="0.18707" cy="-24.84774" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <polygon id="sym_6_2" points="0.186501,-30.5775 -4.5556,-21.6622 4.9287,-21.6622" fill="#ffff00" stroke-linecap="round" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <rect id="sym_6_3" height="6.41931" width="2.32708" y="-28.0903" x="-0.9688" fill="none" stroke-width="0.5"/>
+        <text id="sym_6_4" y="-7.19441" x="48.2152" font-size="21px" font-family="ArialMT" fill="black" transform="matrix(0.385151, 0, 0, 0.385151, -19.5011, -19.5276)" stroke-width="0.5">!</text>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c7" idorigin="Reserve" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_7_1" cy="25.22187" cx="0.18707" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <rect id="sym_7_2" height="5.81847" width="1.29295" y="23.92901" x="-0.4596" fill="#999999" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_7_3" d="m0.83373,24.5752v-0.64629h0.64667v-3.23257l1.29295,0.64667v2.5859l-1.93962,0.64629l0,0l0,0z" fill="#999999" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_7_4" d="m-0.4596,24.57531v-0.64627h-0.64667v-3.2326l-1.29257,0.64668v2.58592l1.93924,0.64627z" fill="#999999" stroke="#000000" stroke-width="0.5"/>
+      </g>
+    </symbol>
+    <symbol id="cIcons_c8" idorigin="Printer" overflow="visible" stroke-width="0">
+      <g>
+        <circle id="sym_8_1" cx="-17.14472" cy="17.51885" stroke-miterlimit="10" r="5.77539" fill="#ef7d81" stroke="#000000" stroke-width="0.5"/>
+        <path id="sym_8_2" d="m-21.04367,19.4695l0.55385,1.50018h4.47661l2.16917,-1.50018v-1.50014" fill="#c0c0c0" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <line id="sym_8_3" y2="19.76915" x2="-16.01321" y1="20.96928" x1="-16.01321" fill="none" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <path id="sym_8_4" d="m-21.04367,17.96936v1.7998h5.03045l2.16917,-1.7998v-1.79983" fill="#c0c0c0" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <line id="sym_8_5" y2="17.96934" x2="-16.01321" y1="19.76915" x1="-16.01321" fill="none" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <path id="sym_8_6" d="m-21.04367,17.96936h4.43039c0.92282,-0.60008 1.84603,-1.19977 2.76885,-1.79983" fill="none" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <path id="sym_8_7" d="m-21.04367,17.96936l1.1077,-0.89974l3.87654,-0.89971h2.21501l-2.30744,1.79982h-4.8918" fill="#c0c0c0" stroke-linecap="round" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <path id="sym_8_8" d="m-19.94521,17.06961h3.65508c1.01526,-0.99984 2.03052,-2.59976 3.04577,-2.99993h-3.65508c-1.01526,0.39978 -2.03051,2.00008 -3.04577,2.99993l0,0z" fill="#ffffff" stroke-linecap="round" stroke="#000000" stroke-linejoin="round" stroke-width="0.5"/>
+        <line id="sym_8_9" y2="15.26944" x2="-15.64385" y1="15.26944" x1="-17.44405" fill="none" stroke="#000000" stroke-width="0.5"/>
+        <line id="sym_8_10" y2="16.16953" x2="-16.54395" y1="16.16953" x1="-18.34376" fill="none" stroke="#000000" stroke-width="0.5"/>
+        <line id="sym_8_11" y2="19.16947" x2="-18.04373" y1="19.16947" x1="-16.84398" fill="none" stroke="#ffff00" stroke-width="0.5"/>
+        <line id="sym_8_12" y2="18.5694" x2="-16.84398" y1="18.5694" x1="-18.04373" fill="none" stroke="#7f7f7f" stroke-width="0.5"/>
+      </g>
+    </symbol>
+
+    <linearGradient id="linearGradientBinBright" >
+      <stop id="stoplinearGradientBinBright1" stop-color="#ffff56" offset="0"/>
+      <stop id="stoplinearGradientBinBright2" stop-color="#83630b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradientBinDark" >
+      <stop id="stoplinearGradientBinDark1" stop-color="#c69600" offset="0"/>
+      <stop id="stoplinearGradientBinDark2" stop-color="#5a2800" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradientBinGrey" >
+      <stop id="stoplinearGradientBinGrey1" stop-color="#ffffff" offset="0"/>
+      <stop id="stoplinearGradientBinGrey2" stop-color="#adaead" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradientTruck" >
+      <stop id="stoplinearGradientTruck1" stop-color="#808080" offset="0"/>
+      <stop id="stoplinearGradientTruck2" stop-color="#ffffff" offset="0.5"/>
+      <stop id="stoplinearGradientTruck3" stop-color="#808080" offset="1"/>
+    </linearGradient>
+  </defs>
+  <text x="30" y="30" font-size="32" fill="Red">Don't Change Anything with Inkscape!</text>
+  <text x="30" y="440" font-size="32" fill="Red">Need to do it with XML Editor manually</text>
+  <g id="g3001" transform="translate(-60, -30)" class="c0 c2 c3 c4 c5 c6 c7 c8">
+   <g id="23">
+    <path id="24" fill="#C0C0C0" stroke="#000000" stroke-miterlimit="4" d="m110,100c0,5.5228 -4.47717,10 -10,10s-10,-4.4772 -10,-10s4.47717,-10 10,-10s10,4.4772 10,10z" />
+    <path id="25" fill="none" stroke="#000000" stroke-miterlimit="4" d="m96.75,90.5l-3,17" />
+    <path id="26" fill="none" stroke="#000000" stroke-miterlimit="4" d="m103.25,90.5l3,17" />
+    <path id="27" fill="none" stroke="#000000" stroke-miterlimit="4" d="m100,94.5l0,6l-4,4l4,-4l4,4" />
+   </g>
+    <use xlink:href="#cLines_c0" x="100" y="100" overflow="visible" class="_0"/>
+    <use xlink:href="#cLines_c2" x="100" y="100" overflow="visible" class="_2"/>
+    <use xlink:href="#cLines_c3" x="100" y="100" overflow="visible" class="_3"/>
+    <use xlink:href="#cLines_c4" x="100" y="100" overflow="visible" class="_4"/>
+    <use xlink:href="#cLines_c5" x="100" y="100" overflow="visible" class="_5"/>
+    <use xlink:href="#cLines_c6" x="100" y="100" overflow="visible" class="_6"/>
+    <use xlink:href="#cLines_c7" x="100" y="100" overflow="visible" class="_7"/>
+    <use xlink:href="#cLines_c8" x="100" y="100" overflow="visible" class="_8"/>
+    <use xlink:href="#cIcons_c1" x="100" y="100" overflow="visible" class="_0"/>
+    <use xlink:href="#cIcons_c2" x="100" y="100" overflow="visible" class="_2"/>
+    <use xlink:href="#cIcons_c3" x="100" y="100" overflow="visible" class="_3"/>
+    <use xlink:href="#cIcons_c4" x="100" y="100" overflow="visible" class="_4"/>
+    <use xlink:href="#cIcons_c5" x="100" y="100" overflow="visible" class="_5"/>
+    <use xlink:href="#cIcons_c6" x="100" y="100" overflow="visible" class="_6"/>
+    <use xlink:href="#cIcons_c7" x="100" y="100" overflow="visible" class="_7"/>
+    <use xlink:href="#cIcons_c8" x="100" y="100" overflow="visible" class="_8"/>
+  </g>
+  <g id="g3002" transform="translate(40, -30)" class="c4 c5">
+   <g id="33">
+    <path id="34" fill="#C0C0C0" stroke="#000000" stroke-miterlimit="4" d="m110,100c0,5.5228 -4.47717,10 -10,10s-10,-4.4772 -10,-10s4.47717,-10 10,-10s10,4.4772 10,10z" />
+    <path id="35" fill="none" stroke="#000000" stroke-miterlimit="4" d="m96.75,90.5l-3,17" />
+    <path id="36" fill="none" stroke="#000000" stroke-miterlimit="4" d="m103.25,90.5l3,17" />
+    <path id="37" fill="none" stroke="#000000" stroke-miterlimit="4" d="m100,94.5l0,6l-4,4l4,-4l4,4" />
+   </g>
+    <use xlink:href="#cLines_c0" x="100" y="100" overflow="visible" class="_0"/>
+    <use xlink:href="#cLines_c2" x="100" y="100" overflow="visible" class="_2"/>
+    <use xlink:href="#cLines_c3" x="100" y="100" overflow="visible" class="_3"/>
+    <use xlink:href="#cLines_c4" x="100" y="100" overflow="visible" class="_4"/>
+    <use xlink:href="#cLines_c5" x="100" y="100" overflow="visible" class="_5"/>
+    <use xlink:href="#cLines_c6" x="100" y="100" overflow="visible" class="_6"/>
+    <use xlink:href="#cLines_c7" x="100" y="100" overflow="visible" class="_7"/>
+    <use xlink:href="#cLines_c8" x="100" y="100" overflow="visible" class="_8"/>
+    <use xlink:href="#cIcons_c0" x="100" y="100" overflow="visible" class="_0"/>
+    <use xlink:href="#cIcons_c2" x="100" y="100" overflow="visible" class="_2"/>
+    <use xlink:href="#cIcons_c3" x="100" y="100" overflow="visible" class="_3"/>
+    <use xlink:href="#cIcons_c4" x="100" y="100" overflow="visible" class="_4"/>
+    <use xlink:href="#cIcons_c5" x="100" y="100" overflow="visible" class="_5"/>
+    <use xlink:href="#cIcons_c6" x="100" y="100" overflow="visible" class="_6"/>
+    <use xlink:href="#cIcons_c7" x="100" y="100" overflow="visible" class="_7"/>
+    <use xlink:href="#cIcons_c8" x="100" y="100" overflow="visible" class="_8"/>
+  </g>
+</svg>

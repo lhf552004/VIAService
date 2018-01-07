@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7214" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="845" width="1590" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title4251">INT2</title>
+ <defs id="defs7216">
+  <marker id="TriangleOutM" refY="0" refX="0" orient="auto">
+   <path id="path3098" style="marker-start:none;" d="m5.77,0-8.65,5,0-10,8.65,5z" fill-rule="evenodd" transform="scale(0.4,0.4)" stroke="#c0c0c0" stroke-width="1pt" fill="#c0c0c0"/>
+  </marker>
+  <linearGradient id="linearGradient4499" y2="419.36" xlink:href="#linearGradient13298" gradientUnits="userSpaceOnUse" y1="419.36" gradientTransform="translate(5553,-277.36218)" x2="210.5" x1="172.5"/>
+  <linearGradient id="linearGradient13298" x1="172.5" gradientUnits="userSpaceOnUse" x2="210.5" gradientTransform="translate(5375,-209.36218)" y1="419.36" y2="419.36">
+   <stop id="stop10288-5-1-4-3-3-5" stop-color="#f7df52" offset="0"/>
+   <stop id="stop10290-4-89-0-4-8-9" stop-color="#8c6100" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4499-4" y2="419.36" xlink:href="#linearGradient13298" gradientUnits="userSpaceOnUse" y1="419.36" gradientTransform="translate(5477,-277.36218)" x2="210.5" x1="172.5"/>
+ </defs>
+ <metadata id="metadata7219">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>INT2</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path10662" stroke-linejoin="round" d="m836,301,0,43" stroke="#000" stroke-linecap="round" stroke-dasharray="none" stroke-width="1px" fill="#808080"/>
+ <path id="path10664" stroke-linejoin="round" d="m832,344,8,0" stroke="#000" stroke-linecap="round" stroke-dasharray="none" stroke-width="1px" fill="#808080"/>
+ <path id="path10666" stroke-linejoin="round" d="m802,301,0,43" stroke="#000" stroke-linecap="round" stroke-dasharray="none" stroke-width="1px" fill="#808080"/>
+ <path id="path10668" stroke-linejoin="round" d="m798,344,8,0" stroke="#000" stroke-linecap="round" stroke-dasharray="none" stroke-width="1px" fill="#808080"/>
+ <path id="path6220" stroke-linejoin="miter" style="marker-end:url(#TriangleOutM);" d="m856,226,0-18" stroke-dashoffset="0" stroke="#c7c7c7" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="8, 2" stroke-width="2" fill="none"/>
+ <path id="path6218" stroke-linejoin="miter" d="m856,248,0,12-20,0" stroke-dashoffset="0" stroke="#c7c7c7" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="8, 2" stroke-width="2" fill="none"/>
+ <g id="g3169-9-0" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4950.5,311.5)" onactivate="Bin004" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12">
+   <rect id="rect10300-1-4-5" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">004</tspan></text>
+  <g id="g13238" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4912.5,311.5)" onactivate="Bin005" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-4" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1">
+   <rect id="rect10300-1-4-5-3" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">005</tspan></text>
+  <g id="g13238-6" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-7" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4874.5,311.5)" onactivate="Bin006" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-9" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-7" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-16">
+   <rect id="rect10300-1-4-5-8" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-7" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-3" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-0" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-6" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-5" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-2" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-7" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">006</tspan></text>
+  <g id="g13238-8" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-3" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1-5" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4836.5,311.5)" onactivate="Bin007" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-4-8" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6-3" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1-4">
+   <rect id="rect10300-1-4-5-3-8" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8-7" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9-8" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2-6" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3-9" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0-7" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6-0" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8-7" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">007</tspan></text>
+  <g id="g13238-6-1" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2-3" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-6" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4799,311.5)" onactivate="Bin008" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-2" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-1" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-9" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-7">
+   <rect id="rect10300-1-4-5-7" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-1" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-0" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-7" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-5" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-4" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-7" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-3" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">008</tspan></text>
+  <g id="g13238-9" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-0" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1-8" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4761,311.5)" onactivate="Bin009" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0-7" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-4-3" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6-1" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1-8">
+   <rect id="rect10300-1-4-5-3-2" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8-79" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9-2" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2-7" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3-1" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0-0" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6-6" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8-5" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">009</tspan></text>
+  <g id="g13238-6-10" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2-1" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-7-4" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4723,311.5)" onactivate="Bin010" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-8-6" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-9-5" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-7-7" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-16-6">
+   <rect id="rect10300-1-4-5-8-4" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-7-7" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-3-3" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-0-4" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-6-0" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-5-5" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-2-5" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-7-3" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">010</tspan></text>
+  <g id="g13238-8-6" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-3-0" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1-5-9" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4685,311.5)" onactivate="Bin011" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0-8-3" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-4-8-8" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6-3-9" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1-4-3">
+   <rect id="rect10300-1-4-5-3-8-1" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8-7-9" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9-8-7" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2-6-8" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3-9-4" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0-7-0" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6-0-2" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8-7-7" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">011</tspan></text>
+  <g id="g13238-6-1-9" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2-3-4" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-7-4-6" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4647.5,311.5)" onactivate="Bin012" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-8-6-0" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-9-5-7" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-7-7-7" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-16-6-2">
+   <rect id="rect10300-1-4-5-8-4-1" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-7-7-9" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-3-3-6" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-0-4-4" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-6-0-6" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-5-5-3" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-2-5-1" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-7-3-2" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">012</tspan></text>
+  <g id="g13238-8-6-3" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-3-0-7" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1-5-9-5" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4609.5,311.5)" onactivate="Bin013" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0-8-3-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499)"/>
+  <text id="text10296-3-8-8-4-8-8-8" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6-3-9-5" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1-4-3-9">
+   <rect id="rect10300-1-4-5-3-8-1-0" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8-7-9-7" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9-8-7-2" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2-6-8-5" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3-9-4-9" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0-7-0-8" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6-0-2-5" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8-7-7-7" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">013</tspan></text>
+  <g id="g13238-6-1-9-1" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2-3-4-8" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <path id="path5505-0" stroke-linejoin="miter" style="marker-end:url(#TriangleOutM);" d="m244.72,578.11v-23.5" stroke-dashoffset="0" stroke="#c0c0c0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="6, 2" stroke-width="2" fill="none"/>
+ <g id="g13790-7" transform="matrix(1,0,0,0.99513288,-1689.6055,-804.89729)">
+  <rect id="rect601-1-6" stroke-linejoin="miter" stroke-dasharray="none" rx="5.924" ry="5.924" height="54.264" width="54" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="1052.7" x="2388.6" stroke-width="1.0024" fill="#808080"/>
+ </g>
+ <g id="g603-7-1" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-107.33681,-479.42218)" onactivate="A_1200_LLI01" onfocusin="Library: v2.4">
+  <g id="g605-40-4" onload="q=PLCEQ;">
+   <path id="path607-9-2" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8313,6.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g609-48-3" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-107.36011,-479.42218)" onactivate="A_1200_LLI02" onfocusin="Library: v2.4">
+  <g id="g611-8-2" onload="q=PLCEQ;">
+   <path id="path613-2-2" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8546,22.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g615-4-1" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-107.36011,-479.42218)" onactivate="A_1200_LLI03" onfocusin="Library: v2.4">
+  <g id="g617-5-6" onload="q=PLCEQ;">
+   <path id="path619-5-8" stroke-linejoin="miter" d="m-41.5,725.5c0,3.3137-2.6863,6-6,6s-6-2.6863-6-6,2.6863-6,6-6,6,2.6863,6,6z" transform="translate(864.8546,38.60851)" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <text id="text633-1-5" font-size="11px" font-family="SimSun" xml:space="preserve" font-style="normal" y="257" x="720" font-weight="normal" fill="#000000"><tspan id="tspan635-7-7" y="257" x="720">启动</tspan></text>
+ <text id="text637-1-6" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" font-style="normal" y="273.05176" x="720" font-weight="normal" fill="#000000"><tspan id="tspan639-1-1" font-size="11px" y="273.05176" x="720" font-family="SimSun">暂停</tspan></text>
+ <text id="text641-5-8" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" font-style="normal" y="289.05713" x="719.5918" font-weight="normal" fill="#000000"><tspan id="tspan643-2-9" font-size="11px" y="289.05713" x="719.5918" font-family="SimSun">停止</tspan></text>
+ <g id="g4487-15-7" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-2032.8814,543.17421)" onactivate="A_2001_BLL04" onfocusin="Library: v2.4">
+  <g id="g4959-2-0" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-6" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-75" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1994.8482,543.13002)" onactivate="A_2001_BLL05" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-59" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-6" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-8-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1955.8372,543.13002)" onactivate="A_2001_BLL06" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-6-2" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-7-1" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-3-4" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1916.9256,543.17421)" onactivate="A_2001_BLL07" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-2-6" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-2-5" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-9-4" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1881.8538,543.14645)" onactivate="A_2001_BLL08" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-0-9" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-3-6" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-5-9" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1841.8096,543.15201)" onactivate="A_2001_BLL09" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-5-8" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-29-8" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-4-4" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1806.8814,543.13002)" onactivate="A_2001_BLL10" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-9-0" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-34-1" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-6-2" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1765.8372,543.13002)" onactivate="A_2001_BLL11" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-66-5" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-4-7" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-7-5" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1728.804,543.13002)" onactivate="A_2001_BLL12" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-56-3" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-31-7" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-2-9" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1690.8814,543.17421)" onactivate="A_2001_BLL13" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-67-6" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-9-8" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-7-4-6-1" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4571.5,311.5)" onactivate="Bin014" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-8-6-0-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499-4)"/>
+  <text id="text10296-3-8-8-9-5-7-4" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-7-7-7-9" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-16-6-2-6">
+   <rect id="rect10300-1-4-5-8-4-1-3" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-7-7-9-7" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-3-3-6-8" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-0-4-4-8" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-6-0-6-2" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-5-5-3-9" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-2-5-1-1" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-7-3-2-3" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">014</tspan></text>
+  <g id="g13238-8-6-3-5" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-3-0-7-9" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g3169-9-0-1-5-9-5-8" onclick="Storage" onfocusout="Symbol: v1.0" transform="translate(-4533.5,311.5)" onactivate="Bin015" onfocusin="Library: v2.4">
+  <path id="path9504-1-4-3-0-8-3-8-4" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m5548.5,73.5,37,0,0,260-19,14-18-14,0-260z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="url(#linearGradient4499-4)"/>
+  <text id="text10296-3-8-8-4-8-8-8-0" onload="q=BO;f=string;c=Storage;p=Product.Name;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" font-style="normal" y="-5572.1523" x="120.01514" font-weight="normal" fill="#000000"><tspan id="tspan10298-41-8-0-6-3-9-5-7" font-size="13px" font-family="Arial" y="-5572.1523" x="120.01514" font-weight="bold">Product</tspan></text>
+  <g id="g4731-2-12-1-4-3-9-6">
+   <rect id="rect10300-1-4-5-3-8-1-0-3" onload="q=BO;f=bargraph;c=Storage;p=LevelCurMeasured;a=height;" height="175" width="11" y="120" x="5553" fill="#00F"/>
+   <g id="g4725-5-0-8-7-9-7-6" stroke-linejoin="miter" stroke-dashoffset="0" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" fill="none">
+    <path id="path10302-3-51-9-9-8-7-2-1" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5564.5,119.5-12,0,0,176"/>
+    <path id="path2837-8-7-4-2-6-8-5-5" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999982" stroke="#FFF" d="m5564.5,120.5,0,175-11,0"/>
+    <path id="path3611-74-11-7-3-9-4-9-4" style="enable-background:accumulate;color:#000000;" d="m5552.5,296.5,13,0,0-177" stroke="#FFF" stroke-miterlimit="4.30000019" stroke-dasharray="none" stroke-width="1"/>
+    <path id="path3613-2-5-8-0-7-0-8-2" style="color:#000000;enable-background:accumulate;" stroke-width="1" stroke="#808081" d="m5565.5,118.5-14,0,0,178"/>
+   </g>
+  </g>
+  <text id="text10292-2-2-3-6-0-2-5-0" onload="q=BO;f=string;c=Storage;p=Ident;a=text;" font-size="40px" font-family="Bitstream Vera Sans" xml:space="preserve" style="text-anchor:middle;text-align:center;" font-style="normal" y="109.85352" x="5566.0703" font-weight="normal" fill="#000000"><tspan id="tspan10294-3-76-5-8-8-7-7-7-9" font-size="12px" font-family="Arial" style="text-anchor:middle;text-align:center;" y="109.85352" x="5566.0703" font-weight="bold">015</tspan></text>
+  <g id="g13238-6-1-9-1-7" onload="q=BO;f=visustate;c=Storage;">
+   <rect id="rect652-4-20-2-3-4-8-3" fill-rule="evenodd" height="178" width="0.99997" stroke-miterlimit="4" y="124" x="5551" stroke-width="0" fill="#F00"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-7-5-7" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1652.804,543.13002)" onactivate="A_2001_BLL14" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-56-3-2" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-31-7-6" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4487-15-0-2-9-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1614.8814,543.17421)" onactivate="A_2001_BLL15" onfocusin="Library: v2.4">
+  <g id="g4959-2-2-67-6-1" onload="q=PLCEQ;">
+   <rect id="rect8602-8-5-9-6-1-3-9-6-1-7-8-9-8-6" stroke-dasharray="none" stroke-dashoffset="0" height="9" width="9" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="80.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4758-1" onclick="GcObject" onfocusout="Symbol: v1.0" transform="matrix(1.3793088,0,0,1.2307692,-646.0673,-125.23077)" onactivate="A_1012_MXZ01" onfocusin="Library: v2.8">
+  <g id="svg_6-7" onload="q=PLCEQ;" transform="translate(4282,320.36218)" stroke="#000" stroke-linecap="square" stroke-width="1">
+   <path id="svg_90-4" d="m-3207.5,12.138-9,0-20,11,1,2.0005,4,0,0,3,15,23,9,0z" fill="#CCC" class="activ"/>
+   <line id="svg_87-9" stroke-width="1" y2="25.137" x2="-3208.5" y1="25.137" x1="-3231.5" fill="none"/>
+   <line id="svg_83-4" stroke-width="1" y2="28.137" x2="-3207.5" y1="28.137" x1="-3231.5" fill="none"/>
+   <path id="path6935-7-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m-3227.5,25.138,0,2.9997" stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+   <path id="path18503-8" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m-3212.5,25.138,0,2.9997" stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+   <path id="path18505-2" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m-3217.5,25.138,0,2.9997" stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+   <path id="path18507-4" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m-3222.5,25.138,0,2.9997" stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+  </g>
+ </g>
+ <g id="g9136" onactivate="A_1013_KFC01" onfocusout="Symbol: v1.0" transform="translate(320.49998,-61.50001)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g9138" stroke-linejoin="miter" onload="q=PLCEQ;" stroke-dashoffset="0" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4">
+   <path id="path9141" style="color:#000000;enable-background:accumulate;" stroke-width="0.99999994" fill="#c0c0c0" d="m500.5,313.5,15,0,0,32-15,0z"/>
+   <path id="path9143" style="color:#000000;enable-background:accumulate;" stroke-width="1" fill="none" d="m500.5,319.5,15,0"/>
+  </g>
+ </g>
+ <g id="g8459" onclick="GcObject" onfocusout="Symbol: v2.0" transform="translate(297,4.5)" onactivate="A_1013_1_MXZ01" onfocusin="Library: v2.8">
+  <g id="g8461" stroke-linejoin="miter" onload="q=PLCEQ;wc=#0000ff;" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="1">
+   <path id="path8463" d="m559,242.5c-5.7989,0-10.5-4.7011-10.5-10.5s4.7011-10.5,10.5-10.5,10.5,4.7011,10.5,10.5-4.7011,10.5-10.5,10.5z" stroke-linecap="square" stroke-width="1" fill="#c0c0c0"/>
+   <path id="path8465" style="color:#000000;enable-background:accumulate;" d="m552.5,239.5,3-17" stroke-dashoffset="0" stroke-linecap="square" stroke-width="1" fill="none"/>
+   <path id="path8467" style="color:#000000;enable-background:accumulate;" d="m565.5,239.5-3-17" stroke-dashoffset="0" stroke-linecap="square" fill="none"/>
+   <path id="path8474" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m559,225.5,0,6-4,4,4-4,4,4" stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+  </g>
+  <rect id="rect8469" onload="q=out;" fill-opacity="0.392" height="6" width="7" y="219" x="556" fill="#00F"/>
+  <rect id="rect8472" onload="q=out;" fill-opacity="0.392" height="6" width="7" y="239" x="556" fill="#00F"/>
+ </g>
+ <g id="g4494-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-2027.5,200.5)" onactivate="A_1015_1_BPY04" onfocusin="Library: v2.8">
+  <g id="g5170-9" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-2027.5,212.5)" onactivate="A_1015_2_BZS04" onfocusin="Library: v2.8">
+  <g id="g5170-9-7" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229" stroke-linejoin="miter" onactivate="A_1015_2_QXV04" onfocusout="Symbol: v1.0" transform="translate(-86.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1987.5,200.5)" onactivate="A_1015_1_BPY05" onfocusin="Library: v2.8">
+  <g id="g5170-9-1" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1987.5,212.5)" onactivate="A_1015_2_BZS05" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4" stroke-linejoin="miter" onactivate="A_1015_2_QXV05" onfocusout="Symbol: v1.0" transform="translate(-47.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227-7" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-7" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1947.5,200.5)" onactivate="A_1015_1_BPY06" onfocusin="Library: v2.8">
+  <g id="g5170-9-3" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-3" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-5" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1947.5,212.5)" onactivate="A_1015_2_BZS06" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-9" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-9" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-8" stroke-linejoin="miter" onactivate="A_1015_2_QXV06" onfocusout="Symbol: v1.0" transform="translate(-6.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-1" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-8" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-2" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-6" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-6" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-0" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227-3" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4-8" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1907.5,200.5)" onactivate="A_1015_1_BPY07" onfocusin="Library: v2.8">
+  <g id="g5170-9-1-0" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2-1" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0-2" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1907.5,212.5)" onactivate="A_1015_2_BZS07" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0-5" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1-0" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4-9" stroke-linejoin="miter" onactivate="A_1015_2_QXV07" onfocusout="Symbol: v1.0" transform="translate(32.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6-4" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0-7" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7-8" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1-3" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7-5" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7-1" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227-7-2" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1871.5,200.5)" onactivate="A_1015_1_BPY08" onfocusin="Library: v2.8">
+  <g id="g5170-9-16" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-4" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-06" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1871.5,212.5)" onactivate="A_1015_2_BZS08" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-1" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-8" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-9" stroke-linejoin="miter" onactivate="A_1015_2_QXV08" onfocusout="Symbol: v1.0" transform="translate(69.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-8" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-4" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-1" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-4" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-3" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-9" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227-8" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4-80" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1831.5,200.5)" onactivate="A_1015_1_BPY09" onfocusin="Library: v2.8">
+  <g id="g5170-9-1-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2-7" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0-7" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1831.5,212.5)" onactivate="A_1015_2_BZS09" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1-3" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4-8" stroke-linejoin="miter" onactivate="A_1015_2_QXV09" onfocusout="Symbol: v1.0" transform="translate(108.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6-3" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0-71" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7-0" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1-7" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7-3" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7-4" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <path id="rect6227-7-9" d="m692,336,8,0,0,5-8,0z" fill-opacity="0.39199997" stroke-dashoffset="0" stroke-miterlimit="4" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-7-6" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1794.5,200.5)" onactivate="A_1015_1_BPY10" onfocusin="Library: v2.8">
+  <g id="g5170-9-3-5" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-3-1" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-5-0" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1794.5,212.5)" onactivate="A_1015_2_BZS10" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-9-9" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-9-9" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-8-6" stroke-linejoin="miter" onactivate="A_1015_2_QXV10" onfocusout="Symbol: v1.0" transform="translate(146.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-1-8" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-8-3" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-2-4" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-6-8" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-6-4" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-0-9" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-3-9" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4-8-2" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1754.5,200.5)" onactivate="A_1015_1_BPY11" onfocusin="Library: v2.8">
+  <g id="g5170-9-1-0-5" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2-1-5" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0-2-3" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1754.5,212.5)" onactivate="A_1015_2_BZS11" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0-5-3" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1-0-3" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4-9-7" stroke-linejoin="miter" onactivate="A_1015_2_QXV11" onfocusout="Symbol: v1.0" transform="translate(185.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6-4-4" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0-7-3" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7-8-8" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1-3-0" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7-5-8" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7-1-8" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-7-2-0" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-0-6" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1719.5,200.5)" onactivate="A_1015_1_BPY12" onfocusin="Library: v2.8">
+  <g id="g5170-9-16-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-4-1" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-06-9" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1719.5,212.5)" onactivate="A_1015_2_BZS12" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-1-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-8-9" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-9-7" stroke-linejoin="miter" onactivate="A_1015_2_QXV12" onfocusout="Symbol: v1.0" transform="translate(221.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-8-2" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-4-2" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-1-8" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-4-2" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-3-8" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-9-9" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-8-0" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4-80-7" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1679.5,200.5)" onactivate="A_1015_1_BPY13" onfocusin="Library: v2.8">
+  <g id="g5170-9-1-8-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2-7-1" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0-7-5" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1679.5,212.5)" onactivate="A_1015_2_BZS13" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0-8-8" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1-3-6" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4-8-1" stroke-linejoin="miter" onactivate="A_1015_2_QXV13" onfocusout="Symbol: v1.0" transform="translate(260.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6-3-2" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0-71-4" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7-0-2" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1-7-5" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7-3-8" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7-4-6" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-7-9-2" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-7-6-6" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1642.5,200.5)" onactivate="A_1015_1_BPY14" onfocusin="Library: v2.8">
+  <g id="g5170-9-3-5-5" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-3-1-3" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-5-0-9" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1642.5,212.5)" onactivate="A_1015_2_BZS14" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-9-9-2" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-9-9-4" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-8-6-6" stroke-linejoin="miter" onactivate="A_1015_2_QXV14" onfocusout="Symbol: v1.0" transform="translate(298.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-1-8-1" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-8-3-8" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-2-4-2" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-6-8-1" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-6-4-1" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-0-9-9" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-3-9-7" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <g id="g4494-0-4-8-2-6" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1602.5,200.5)" onactivate="A_1015_1_BPY15" onfocusin="Library: v2.8">
+  <g id="g5170-9-1-0-5-2" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-2-1-5-9" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g4494-0-5-0-2-3-5" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(-1602.5,212.5)" onactivate="A_1015_2_BZS15" onfocusin="Library: v2.8">
+  <g id="g5170-9-7-0-5-3-2" onload="q=PLCEQ;">
+   <rect id="rect14714-543-1-3-9-5-1-0-3-0" stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="8.0001" width="11" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="159.5" x="2644.5" stroke-width="1" fill="#c0c0c0"/>
+  </g>
+ </g>
+ <g id="g6229-4-9-7-0" stroke-linejoin="miter" onactivate="A_1015_2_QXV15" onfocusout="Symbol: v1.0" transform="translate(337.5,40.499964)" onclick="GcObject" onfocusin="Library: v2.8">
+  <g id="g6219-6-4-4-3" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-0-7-3-9" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-7-8-8-1" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-1-3-0-8" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-7-5-8-1" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-7-1-8-9" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+  <rect id="rect6227-7-2-0-5" onload="q=out;" fill-opacity="0.392" stroke-dashoffset="0" height="5" width="8" stroke-miterlimit="4" y="336" x="692" fill="#e52922"/>
+ </g>
+ <path id="svg_88-3-0" d="m806.27,265.15,15.391,19.133-4.1975,0-13.992-18.07,2.7984-1.0629" stroke="#000" stroke-linecap="square" stroke-width="1.21952248" class="activ" fill="none"/>
+ <g id="g7534-1-3-5-0-2" onfocusout="Symbol: v1.0" transform="matrix(0.13010519,0,0,0.72665118,736.63085,-148.85039)" onactivate="G098M" onfocusin="Library: v2.1" fill="#f7ebce">
+  <rect id="rect7570-5-2-0-5-5" onload="q=PLC;f=visibility;c=PLC1;p=G098M.ForLidStatus;ref=&apos;9&apos;;l=notequal;" height="43" width="208.4" y="551.67" x="437.55"/>
+ </g>
+ <g id="g10663-1" onclick="GcObject" onfocusout="Symbol: v1.1" transform="translate(-1866.6919,150.21296)" onactivate="A_1012_BPY01" onfocusin="Library: v2.6">
+  <g id="g10658-7" onload="q=PLCEQ;" stroke-dashoffset="0" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4">
+   <path id="path4064-8-4" stroke-linejoin="miter" style="color:#000000;enable-background:accumulate;" d="m2646.5,135.5,10-4,0,0" stroke-width="1.00039721" fill="none"/>
+   <path id="path4066-37-0" stroke-linejoin="miter" style="color:#000000;enable-background:accumulate;" d="m2650.5,129.5,0,4.0003" stroke-width="1.00039721" fill="none"/>
+   <path id="path4068-0-9" d="m2653.5,127.5a3,2.9998,0,0,1,-6,0,3,2.9998,0,1,1,6,0z" stroke-width="1.00039721px" fill="#c0c0c0"/>
+   <path id="path8462-4" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m2641.5,135.5,5.2,0" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+  </g>
+ </g>
+ <g id="g6229-1" stroke-linejoin="miter" onclick="GcObject" onfocusout="Symbol: v1.0" transform="translate(88.308415,-29.787055)" onactivate="A_1012_QXV01" onfocusin="Library: v2.6">
+  <g id="g6219-7" onload="q=PLCEQ;" stroke="#000" stroke-dasharray="none" stroke-width="1">
+   <path id="2-59-40" d="m691.5,322.5,9,0,0,17-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="3-70-9" d="m691.5,322.5,9,0,0,3-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="4-26-48" d="m682.5,325.5,9,0,0,9-9,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="6-7-4-8" d="m682.5,334.5,9-9,0,0,0,0z" fill-rule="evenodd" stroke-linecap="round" fill="#c0c0c0"/>
+   <path id="path6217-2" style="color:#000000;enable-background:accumulate;" d="m682.5,325.5,9,9" stroke-dashoffset="0" stroke-miterlimit="4" fill="none"/>
+  </g>
+ </g>
+</svg>

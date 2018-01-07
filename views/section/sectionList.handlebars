@@ -1,0 +1,85 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="/stylesheets/formStyle.css" rel="stylesheet">
+{{/section}}
+<div class="container main">
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "Section List"}}}</h2>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <table id="sectionsTable" class="table table-bordered table-hover">
+                <caption>{{{__ "Section Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "Category"}}}</th>
+                    <th>{{{__ "State"}}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each sections}}
+                    <tr id="{{id}}">
+                        <td><a href="/section/sectionDetail/:{{id}}">{{ident}}</a></td>
+                        <td>{{category}}</td>
+                        <td>{{displayState}}</td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-3">
+            <button id="newSection" class="btn btn-primary">{{{__ "New"}}}</button>
+            <button id='deleteSection' class="btn btn-danger">{{{__ "Delete"}}}</button>
+        </div>
+    </div>
+</div>
+<div id="createNewSectionDialog" title="{{{__ "Create new section"}}}">
+    <p class="validateTips">{{{__ "All form fields are required."}}}</p>
+    <form>
+        <fieldset>
+            <label for="ident">{{{__ "Ident"}}}</label>
+            <input type="text" name="ident" id="ident" class="text ui-widget-content ui-corner-all">
+            <br>
+            <!-- Allow form submission with keyboard without duplicating the dialog button -->
+            <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+        </fieldset>
+    </form>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/sections.js"></script>
+
+{{/section}}

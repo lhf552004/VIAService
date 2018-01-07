@@ -1,0 +1,172 @@
+{{#section 'head'}}
+    <style>
+        .title{
+            padding-left: 25%;
+            color: ghostwhite;
+        }
+        header{
+            background-color: lightseagreen;
+        }
+        .right-button{
+            padding-top: 50%;
+        }
+        .details{
+            padding-top: 1%;
+            background-color: #a7dbd8;
+            padding-bottom: 15%;
+        }
+        .info{
+            color: green;
+        }
+        .error{
+            color: red;
+        }
+        .leftSide{
+
+        }
+        .list{
+            padding-top: 2%;
+            color: white;
+        }
+    </style>
+{{/section}}
+<div class="container main">
+    <!--<input id="job" type="text" class="hidden" value="{{job}}"/>-->
+    <!--<input id="lineId" type="text" class="hidden" value="{{job.LineId}}"/>-->
+    <input type="text" class="hidden" id="recipe" value="{{recipe}}"/>
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <div class="col-lg-8">
+                <h2 class="title">{{{__ "Job Detail"}}}</h2>
+            </div>
+            <div class="col-lg-3 list">
+                <a href="/job/jobList/:{{job.lineIdent}}" class="list">{{{__ "Job List"}}}</a>
+            </div>
+        </div>
+
+    </header>
+    <div class="row">
+        <div class="col-lg-3 leftSide">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <form class="form-horizontal" role="form" method="post">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="ident" name="ident" disabled
+                               value="{{job.ident}}"/>
+                        <input type="text" class="form-control hidden" id="jobId" name="id"
+                               value="{{job.id}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Line Ident"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="lineIdent" name="lineIdent" disabled
+                               value="{{job.lineIdent}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "State"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="displayState" name="state" disabled
+                               value="{{job.displayState}}"/>
+                        <input type="text" class="form-control hidden" id="state" name="state"
+                               value="{{job.state}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Locked"}}}</label>
+                    <div class="col-md-4">
+                        <label><input type="checkbox" value="{{job.locked}}" id="locked" name="locked"></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Product"}}}</label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control hidden" id="productIdent" name="productIdent" value="{{job.productIdent}}"/>
+                        <input type="text" class="form-control" id="productName" name="productName" value="{{job.productName}}" disabled
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "TargetWeight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id ="targetWeight" name="targetWeight" step="any"
+                               value="{{job.targetWeight}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "ActualWeight"}}}</label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" name="ActualWeight" step="any" disabled
+                               value="{{job.actualWeight}}"/>
+                    </div>
+
+                </div>
+                <div class="form-group">
+
+                    <label class="col-md-2 control-label">{{{__ "Sender"}}}</label>
+                    <div class="col-md-4">
+                        <select class="col-md-6" name="senderStorage" id="senderStorages">
+                            <option></option>
+                        </select>
+                        <input type="text" class="col-md-6 form-control" id="sender" disabled
+                        />
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">{{{__ "Receiver"}}}</label>
+                    <div class="col-md-4">
+                        <select class="col-md-6" name="receiverStorages" id="receiverStorages">
+                            <option></option>
+                        </select>
+                        <input type="text" class="col-lg-6 col-md-6 form-control" id="receiver" disabled
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button id='save' type="submit" class="btn btn-primary">{{{__ "save"}}}</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-3">
+            <div class="btn-group right-button" role="group" aria-label="Basic example">
+                <button id="checkJob" class="btn btn-primary">{{{__ "check Job"}}}</button>
+                <button id="startJob" class="btn btn-danger">{{{__ "Start Job"}}}</button>
+                <button id="doneJob" class="btn btn-danger">{{{__ "Done Job"}}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/job.js"></script>
+
+{{/section}}

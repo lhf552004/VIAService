@@ -1,0 +1,60 @@
+{
+  "name": "hwlt",
+  "version": "1.0.0",
+  "description": "hwlt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffftaw/hwlt.git"
+  },
+  "author": "Allen Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffftaw/hwlt/issues"
+  },
+  "homepage": "https://github.com/ffftaw/hwlt#readme",
+  "dependencies": {
+    "angular": "^1.4.14",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.0-rc.5",
+    "angular-messages": "^1.4.14",
+    "async": "^2.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "better-assert": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "bootstrap-combobox": "^1.0.2",
+    "chrome-manifest": "^0.2.9",
+    "colors": "^1.1.2",
+    "connect-flash": "^0.1.1",
+    "continuation-local-storage": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "easy-table": "^1.0.0",
+    "enum": "^2.3.0",
+    "exit": "^0.1.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "express3-handlebars": "^0.5.2",
+    "filequeue": "^0.5.0",
+    "hbs": "^4.0.0",
+
+    "i18n": "^0.8.3",
+
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
+    "node-printer": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "promise": "^7.1.1",
+    "requirish": "^0.3.0",
+    "sequelize": "^3.23.6",
+    "socket.io": "^1.4.8",
+    "stream-to-array": "^2.3.0",
+    "treeify": "^1.0.1",
+    "underscore": "^1.8.3",
+    "yargs": "^4.8.1"
+  }
+}

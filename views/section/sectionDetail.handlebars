@@ -1,0 +1,166 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="/stylesheets/formStyle.css" rel="stylesheet">
+{{/section}}
+
+
+
+
+
+
+
+
+<div class="container main">
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "Section Detail"}}}</h2>
+            <a href="/section/sectionList">{{{__ "Section List"}}}</a>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <div class="">
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#general">{{{__ "General"}}}</a></li>
+                    <li><a data-toggle="pill" href="#crossCon">{{{__ "cross contaimination"}}}</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="general" class="tab-pane fade in active">
+                        <form class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Ident"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="ident" name="ident" disabled
+                                           value="{{section.ident}}"/>
+                                    <input type="text" class="form-control hidden" id="sectionId" name="id"
+                                           value="{{section.id}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Name"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           value="{{section.name}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "State"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="displayState" name="displayState"
+                                           value="{{section.displayState}}" disabled/>
+                                    <input type="text" class="form-control hidden" id="state" name="state"
+                                           value="{{section.state}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Previous State"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="displayPreviousState" name="displayPreviousState"
+                                           value="{{section.displayPreviousState}}" disabled/>
+                                    <input type="text" class="form-control hidden" id="previousState" name="previousState"
+                                           value="{{section.previousState}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Category"}}}</label>
+                                <div class="col-md-4">
+                                    <select class="col-md-6" name="categorySelect" id="categorySelect">
+                                        <option></option>
+                                        <option value="1">{{{__ "DataHolding"}}}</option>
+                                        <option value="2">{{{__ "Dosing"}}}</option>
+                                        <option value="3">{{{__ "Mixing"}}}</option>
+                                        <option value="4">{{{__ "Packing"}}}</option>
+                                        <option value="5">{{{__ "Palleting"}}}</option>
+                                    </select>
+                                    <input type="text" class="form-control" id="displayCategory" name="displayCategory"
+                                           value="{{section.displayCategory}}" disabled/>
+                                    <input type="text" class="form-control hidden" id="category" name="category"
+                                           value="{{section.category}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "nodeId"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="nodeId" name="nodeId"
+                                           value="{{section.nodeId}}"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Current Job"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="jobIdent" name="jobIdent"
+                                           value="{{section.jobIdent}}" disabled/>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Creation Time"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="datetime" class="form-control" id="createdAt" name="createdAt" disabled
+                                           value="{{section.createdAt}}"/>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">{{{__ "Update Time"}}}</label>
+                                <div class="col-md-4">
+                                    <input type="datetime" class="form-control" id="updatedAt" name="updatedAt" disabled
+                                           value="{{section.updatedAt}}"/>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <button id='save' type="submit" class="btn btn-primary">{{{__ "save"}}}</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="crossCon" class="tab-pane fade">
+                        <div class="row">
+
+                            <h3>TODO</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <button id="reset" class="btn btn-danger">{{{__ "Reset"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/section.js"></script>
+{{/section}}

@@ -1,0 +1,90 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .title-Detail {
+            padding-left: 25%;
+            color: snow;
+        }
+
+        header {
+            background-color: lightsteelblue;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: skyblue;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+{{/section}}
+<div class="container main">
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6">
+            <input id="receipts" type="text" class="hidden" value="{{receipts}}"/>
+            <input id="state" type="text" class="hidden" value="{{state}}"/>
+            <table id="disJobsTable" class="table table-bordered table-hover">
+                <caption>{{{__ "Dispensary job Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "ProductIdent"}}}</th>
+                    <th>{{{__ "TargetWeight"}}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each dispensaryJobs}}
+                    <tr id="{{id}}">
+                        <td><a href="/station/dispensary/dispensaryJobDetail/:{{id}}">{{ident}}</a></td>
+                        <td>{{productIdent}}</td>
+                        <td>{{targetWeight}}</td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/dispensarys.js"></script>
+{{/section}}

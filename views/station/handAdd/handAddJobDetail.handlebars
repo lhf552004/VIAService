@@ -1,0 +1,150 @@
+{{#section 'head'}}
+    <link href="/vendor/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .title-Detail {
+            padding-left: 25%;
+            color: snow;
+        }
+
+        header {
+            background-color: lightsteelblue;
+        }
+
+        .right-button {
+            padding-top: 50%;
+        }
+
+        .details {
+            padding-top: 1%;
+            background-color: skyblue;
+            padding-bottom: 15%;
+        }
+
+        .info {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+{{/section}}
+
+
+
+
+
+
+
+
+<div class="container main">
+    <label id="15"></label>
+    <!--<input id="receipt" type="text" class="hidden" value="{{receipt}}"/>-->
+    <!--<input id="packingCategory" type="text" class="hidden" value="{{packingCategory}}"/>-->
+    <input id="products" type="text" class="hidden" value="{{products}}"/>
+    <input id="mixers" type="text" class="hidden" value="{{mixers}}"/>
+    <!--<input id="companys" type="text" class="hidden" value="{{companys}}"/>-->
+    <header class="row">
+        <div class="col-lg-3">
+            <label id="error"></label>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title-Detail">{{{__ "Handadd job Detail"}}}</h2>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Informations: "}}}</label>
+                    <br>
+                    <br>
+                    <ul id="infos" class="info">
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label class="col-md-2 control-label">{{{__ "Errors"}}}</label>
+                    <br>
+                    <br>
+                    <ul id="errors" class="error">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 details">
+            <div class="">
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#general">{{{__ "General"}}}</a></li>
+                    <li><a data-toggle="pill" href="#bags">{{{__ "Bags"}}}</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="general" class="tab-pane fade in active">
+
+                        <div class="row">
+                            <table id="assembliesTable" class="table table-bordered table-hover">
+                                <caption>{{{__ "Handadd job Management"}}}</caption>
+                                <thead>
+                                <tr>
+                                    <th>{{{__ "JobIdent"}}}</th>
+                                    <th>{{{__ "State"}}}</th>
+                                    <th>{{{__ "TargetWeight"}}}</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {{#each assemblies}}
+                                    <tr id="{{id}}">
+                                        <td><a href="/station/dispensary/dispensaryJobDetail/:{{id}}">{{jobIdent}}</a></td>
+                                        <td>{{state}}</td>
+                                        <td>{{targetWeight}}</td>
+                                    </tr>
+                                {{/each}}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label>{{{__ "Please Scan barcode"}}}</label>
+                                <input id="barcode" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bags" class="tab-pane fade">
+                        <div class="row">
+                            <table id="bagsTable" class="table table-bordered table-hover">
+                                <caption>{{{__ "Bags list"}}}</caption>
+                                <thead>
+                                <tr>
+                                    <th>{{{__ "ProductIdent"}}}</th>
+                                    <th>{{{__ "TargetWeight"}}}</th>
+                                    <th>{{{__ "TargetPercentage"}}}</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <button id="lock" class="btn btn-primary">{{{__ "Lock"}}}</button>
+            <button id='unlock' class="btn btn-danger">{{{__ "unlock"}}}</button>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/vendor/jquery.dataTables.min.js"></script>
+    <script src="/js/handAdd.js"></script>
+{{/section}}

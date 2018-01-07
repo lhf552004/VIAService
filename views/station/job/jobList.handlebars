@@ -1,0 +1,31 @@
+<div class="container" ng-app="jobApp" ng-controller="JobListCtrl">
+    <div class="row">
+        <div class="col-lg-8">
+            <input id="jobs" type="text" class="hidden" value="{{jobs}}"/>
+            <input id="lineIdent" type="text" class="hidden" value="{{lineIdent}}"/>
+            <table class="table table-bordered table-hover">
+                <caption>{[{lineIdent}]} {{{__ "Job Management"}}}</caption>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" ng-model="selectedAll" ng-click="checkAll()"/></th>
+                    <th>{{{__ "Ident"}}}</th>
+                    <th>{{{__ "LineIdent"}}}</th>
+                    <th>{{{__ "State"}}}</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="job in jobs">
+                    <td>
+                        <input type="checkbox" ng-model="job.selected"/>
+                    </td>
+                    <td><a href="/job/station/jobDetail/:{[{job.id}]}">{[{job.ident}]}</a></td>
+                    <td>{[{job.lineIdent}]}</td>
+                    <td>{[{job.displayState}]}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+{{#section 'jquery'}}
+    <script src="/js/app/jobApp.js"></script>
+
+{{/section}}

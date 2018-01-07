@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="getSuperman.js"></script>-->
+    <!--<script src="require-2.2.0.js"></script>-->
+    <!--<script src="bundle.js"></script>-->
+    <script src="../public/vendor/angular.min.js"></script>
+    <script src="ngrepeatSelect.js"></script>
+    <style>
+        svg{
+            cursor : pointer;
+        }
+    </style>
+</head>
+<body>
+<div ng-app="ngrepeatSelect"  ng-controller="ExampleController">
+    <form name="myForm">
+        <label for="repeatSelect"> Repeat select: </label>
+        <select name="repeatSelect" id="repeatSelect" ng-model="data.model">
+            <option ng-repeat="option in data.availableOptions" value="{{option.id}}">{{option.name}}</option>
+        </select>
+    </form>
+    <hr>
+    <tt>model = {{data.model}}</tt><br/>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink=http://www.w3.org/1999/xlink
+     xmlns:a3="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     a3:scriptImplementation="Adobe">
+    <script type="text/ecmascript" a3:scriptImplementation="Adobe">
+        <![CDATA[
+        function changeColor(evt) {
+            var rect = evt.target;
+            rect.setAttributeNS(null, "fill", "blue")
+        }
+        ]]></script>
+    <rect x="5" y="5" width="40" height="40"
+          fill="red"
+          onclick="changeColor(evt)"/>
+</svg>
+</body>
+</html>
