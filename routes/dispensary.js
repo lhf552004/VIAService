@@ -13,7 +13,7 @@ var LogisticUnit = require('../models/pr/LogisticUnit');
 var utils = require('../lib/utils');
 var log = require('../lib/log');
 var AssemblyState = require('../lib/stateAndCategory/assemblyState');
-var labelPrintManager = require('../lib/labelPrintManager');
+//var labelPrintManager = require('../lib/labelPrintManager');
 
 module.exports = function (app, i18n) {
     app.get('/station/dispensary/dispensaryJobList/:disIdent', function (req, res) {

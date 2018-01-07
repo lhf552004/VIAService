@@ -155,16 +155,16 @@ app.use(function (req, res, next) {
 });
 // routes ======================================================================
 require('./routes/index')(app, passport); // load our routes and pass in our app and fully configured passport
-require('./routes/receipt')(app, i18n);
-require('./routes/processOrder')(app, i18n);
-require('./routes/recipe')(app, i18n);
-require('./routes/mixer')(app, i18n);
-require('./routes/jobLog')(app, i18n);
-require('./routes/product')(app, i18n);
-require('./routes/warehouse')(app, i18n);
-require('./routes/dispensary')(app, i18n);
-require('./routes/macro')(app, i18n);
-require('./routes/handAdd')(app, i18n);
+// require('./routes/receipt')(app, i18n);
+// require('./routes/processOrder')(app, i18n);
+// require('./routes/recipe')(app, i18n);
+// require('./routes/mixer')(app, i18n);
+// require('./routes/jobLog')(app, i18n);
+// require('./routes/product')(app, i18n);
+// require('./routes/warehouse')(app, i18n);
+// require('./routes/dispensary')(app, i18n);
+// require('./routes/macro')(app, i18n);
+// require('./routes/handAdd')(app, i18n);
 
 
 
