@@ -6,7 +6,8 @@ module.exports = function(app, passport) {
     // =====================================
     app.get('/', function(req, res) {
         res.render('home',{
-            user: req.user
+            user: req.user,
+            isSearch: false
         }); // load the index.ejs file
     });
 

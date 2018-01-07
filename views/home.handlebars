@@ -101,6 +101,9 @@
             opacity: 0.8;
             background-color: #e5e8ff;
         }
+        .study{
+            padding-bottom: 10px;
+        }
     </style>
 {{/section}}
 <!--<span id="text">{{{__ "text to test"}}}</span>-->
@@ -381,8 +384,13 @@
                 </div>
             </div>
         </div>
+        <!--中间内容-->
         <div class="col-lg-6">
+            {{#if isSearch}}
 
+            {{else}}
+                {{> defaultPart}}
+            {{/if}}
         </div>
         <div class="col-lg-2"></div>
     </div>
