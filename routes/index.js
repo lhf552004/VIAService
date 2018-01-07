@@ -89,7 +89,13 @@ module.exports = function(app, passport) {
         res.cookie('locale', 'en', { maxAge: 900000, httpOnly: true });
         res.redirect('back');
     });
+    app.get('/ru', function(req, res){
+        console.log('Russian------------');
+        res.locals.locale = 'ru';
 
+        res.cookie('locale', 'ru', { maxAge: 900000, httpOnly: true });
+        res.redirect('back');
+    });
 
 
 

@@ -51,7 +51,7 @@ require('./config/passport')(passport); // pass passport for configuration
 
 i18n.configure({
     // setup some locales - other locales default to en silently
-    locales: ['en', 'zh'],
+    locales: ['en', 'zh', 'ru'],
 
     // fall back from Dutch to German
     fallbacks: {'nl': 'de'},

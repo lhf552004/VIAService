@@ -8,19 +8,19 @@ var ConfigureMenus = [
         SubMenus: [
             {
                 name: 'Students',
-                url: '/warehouse/logisticUnitList/:WH'
+                url: '#'
             },
             {
                 name: 'Privatiers',
-                url: '/warehouse/logisticUnitList/:dis1'
+                url: '#'
             },
             {
                 name: 'Entrepreneurs',
-                url: '/warehouse/logisticUnitList/:FP'
+                url: '#'
             },
             {
                 name: 'Expatriates',
-                url: '/warehouse/Lots'
+                url: '#'
             }
         ],
         url: '#'
