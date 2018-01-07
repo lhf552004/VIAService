@@ -27,5 +27,15 @@
 	"Commands": "Commands",
 	"theSection is not found.": "theSection is not found.",
 	"theSection is not found.%s": "theSection is not found.%s",
-	"Passive": "Passive"
+	"Passive": "Passive",
+	"Immigration Services": "Immigration Services",
+	"Students": "Students",
+	"Privatiers": "Privatiers",
+	"Entrepreneurs": "Entrepreneurs",
+	"Expatriates": "Expatriates",
+	"Resources": "Resources",
+	"Contact": "Contact",
+	"Impressum": "Impressum",
+	"FAQ": "FAQ",
+	"Page not found": "Page not found"
 }
