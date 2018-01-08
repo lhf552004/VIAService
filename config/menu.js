@@ -8,26 +8,31 @@ var ConfigureMenus = [
         SubMenus: [
             {
                 name: 'Students',
-                url: '#'
+                url: '/:student',
+                keepPage: true
             },
             {
                 name: 'Privatiers',
-                url: '#'
+                url: '/:privatiers',
+                keepPage: true
             },
             {
                 name: 'Entrepreneurs',
-                url: '#'
+                url: '/:entrepreneurs',
+                keepPage: true
             },
             {
                 name: 'Expatriates',
-                url: '#'
+                url: '/:expatriates',
+                keepPage: true
             }
         ],
         url: '#'
     },
     {
         name: 'Resources',
-        url: '#'
+        url: '#',
+        keepPage: true
     },
     {
         name: 'Contact',
@@ -35,7 +40,8 @@ var ConfigureMenus = [
             {
                 name: 'Impressum',
                 navigation : true,
-                url: '#'
+                url: '#',
+                keepPage: true
 
             }
         ],

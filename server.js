@@ -30,6 +30,12 @@ var handlebars = require('express3-handlebars')
             },
             __n: function () {
                 return i18n.__n.apply(this, arguments);
+            },
+            if_eq: function(v1, v2, options){
+                if(v1 == v2)
+                    return options.fn(this);
+                else
+                    return options.inverse(this);
             }
         }
     });

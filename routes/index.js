@@ -7,7 +7,14 @@ module.exports = function(app, passport) {
     app.get('/', function(req, res) {
         res.render('home',{
             user: req.user,
-            isSearch: false
+            type: ""
+        }); // load the index.ejs file
+    });
+    app.get('/:type', function(req, res) {
+        var type = req.params.type.substring(1);
+        res.render('home',{
+            user: req.user,
+            type: type
         }); // load the index.ejs file
     });
 

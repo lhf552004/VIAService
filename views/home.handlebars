@@ -157,7 +157,7 @@
 
                             <div class="collapse navbar-collapse" id="myNavbar">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">{{{__ "Home"}}}</a></li>
+                                    <li class="active"><a href="/">{{{__ "Home"}}}</a></li>
                                     {{> menus}}
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{{__ "Language"}}} <span
@@ -386,11 +386,24 @@
         </div>
         <!--中间内容-->
         <div class="col-lg-6">
-            {{#if isSearch}}
-
+            {{#if_eq type 'student'}}
+                {{> students}}
             {{else}}
-                {{> defaultPart}}
-            {{/if}}
+                {{#if_eq type 'privatiers'}}
+                    {{> privatiers}}
+                {{else}}
+                    {{#if_eq type 'expatriates'}}
+                        {{> expatriates}}
+                    {{else}}
+                        {{#if_eq type 'entrepreneurs'}}
+                            {{> entrepreneurs}}
+                        {{else}}
+                            {{> defaultPart}}
+                        {{/if_eq}}
+                    {{/if_eq}}
+                {{/if_eq}}
+                
+            {{/if_eq}}
         </div>
         <div class="col-lg-2"></div>
     </div>
